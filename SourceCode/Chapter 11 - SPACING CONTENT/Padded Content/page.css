@@ -1,0 +1,6 @@
+*.padded-mild       { padding-left:1em; padding-right:1em; line-height:1em; }
+*.padded-emphasized { padding-left:2em; padding-right:2em; line-height:2em; }
+*.padded-strong     { padding-left:3em; padding-right:3em; line-height:3em; }
+*.padded-extreme    { padding-left:4em; padding-right:4em; line-height:4em; }
+
+*.padded-strong-BA {  display:block;    padding:2em 5em; }

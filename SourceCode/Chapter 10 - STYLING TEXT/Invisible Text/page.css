@@ -1,0 +1,7 @@
+*.invisible-text { text-indent:-9999px;  
+                   text-align:left;
+                   width:75px; 
+                   height:35px; 
+                   background-image:url("go.jpg");
+                   background-repeat:no-repeat;
+                   background-position:center center; }

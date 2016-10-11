@@ -1,0 +1,44 @@
+h2  { margin:0; font-size:1.1em; font-style:italic; background-color:white; width:68px; }
+
+#div1 { position:absolute; top:50px;  left:20px; }
+#div2 { position:absolute; top:145px; left:20px; }
+#div3 { position:absolute; top:240px; left:20px; }
+#div4 { position:absolute; top:335px; left:20px; }
+#div5 { position:absolute; top:430px; left:20px; }
+
+*.s1  { float:left; height:100%; width:155px; }
+*.s2  { float:left; height:100%; width:105px; margin-left:35px;}
+*.s3  { float:left; height:100%; width:105px; margin-left:35px;}
+
+*.parent   { height:80px; width:435px; text-align:center;
+             margin-top:5px; background-color:white; padding:0 134px;
+             border:1px solid black; repeat-y; }
+
+*.box     { background-color:gold; border:1px solid black; 1margin:5px; 1padding:5px;  } 
+*.spacer  { height:15px; border:none!important; background:none!important; font-size:1px; line-height:1px; }
+*.sized   { width:35px; height:100px; position:absolute; }
+
+*.replaced-inline-shrinkwrapped  { height:auto;  }
+*.replaced-inline-sized          { height:65px;  }
+*.replaced-inline-stretched      { height:100%;  }
+
+*.block-shrinkwrapped            { height:auto;   width:150px; }
+*.block-sized                    { height:65px;   width:100px; }
+*.block-stretched                { height:100%;   width:100px; }
+
+*.table-shrinkwrapped            { height:auto;   width:150px; }
+*.table-sized                    { height:65px;   width:100px; }
+*.table-stretched                { height:100%;   width:100px; }
+
+*.float-shrinkwrapped            { height:auto;   float:left;  width:150px;  }
+*.float-sized                    { height:65px;   float:left;  width:100px;  margin-left:38px; }
+*.float-stretched                { height:100%;   float:left;  width:100px;  margin-left:38px; }
+
+*.absolute-shrinkwrapped   { height:auto;  top:0; bottom:auto; position:absolute; 
+                                                  width:150px; left:135px; top:0px; }
+
+*.absolute-sized           { height:65px;  top:0; bottom:auto; position:absolute; 
+                                                  width:100px;  left:323px; top:0px; }
+
+*.absolute-stretched       { height:auto;  top:0; bottom:0;    position:absolute; 
+                                                  width:100px; left:463px; top:0px; }

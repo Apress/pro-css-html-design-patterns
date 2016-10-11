@@ -1,0 +1,17 @@
+/* Non-essential Styles */
+h2 { text-align:center; font-size:1em; font-weight:bold; 
+     margin:0; margin-top:20px; padding:10px; border:1px solid black; }
+
+*.g1, *.g2 { float:left; clear:left; width:30%; }
+*.g3, *.g4, *.g5, *.g6 {  margin-left:40%;  }
+
+
+/* Essential Styles */
+*.g1 { background:url("h-white2gold.gif")  repeat-y left  top    gold;      }
+*.g2 { background:url("h-trans2white.png") repeat-y right top    royalblue; }
+
+*.g3 { background:url("v-gold2white.gif")  repeat-x left  top    white;     }
+*.g4 { background:url("v-lightning.jpg")   repeat-x left  top    white;     }
+*.g5 { background:url("v-trans2white.png") repeat-x left  bottom red;       }
+*.g6 { background:url("v-white2trans.png") repeat-x left  top    green;     }
+

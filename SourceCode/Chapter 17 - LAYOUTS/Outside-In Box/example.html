@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" > 
+ <head><title>Outside-in Box</title>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" href="site.css"   media="all"    type="text/css" />
+  <link rel="stylesheet" href="page.css"   media="all"    type="text/css" />
+  <link rel="stylesheet" href="print.css"  media="print"  type="text/css" />
+  <!--[if lte IE 6]>
+  <link rel="stylesheet" href="ie6.css"    media="all"    type="text/css" />
+  <![endif]-->
+  <!--[if IE 7]>
+  <link rel="stylesheet" href="ie7.css"    media="all"    type="text/css" />
+  <![endif]-->
+ </head>
+ 
+ <body>
+  
+ <h1>Outside-in Box</h1>
+
+ <h2>Before</h2>
+ <div class="container">   <div  class="before float"   >Float   </div>    </div>
+ <div class="container">   <span class="before absolute">Absolute</span>   </div>
+ <div class="container">   <div  class="before static"  >Static  </div>    </div>
+
+ <div class="float-divider"></div><h2>After</h2>
+
+ <div class="container">
+   <div class="after float"   ><div class="oi">Float   </div></div>        </div>
+
+ <div class="container">
+   <span class="after absolute"><span class="oi">Absolute</span></span>    </div>
+
+ <div class="container">
+   <div class="after static"  ><div class="oi">Static  </div></div>        </div>
+
+ </body>
+</html>

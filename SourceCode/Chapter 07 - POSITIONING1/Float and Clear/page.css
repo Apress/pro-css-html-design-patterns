@@ -1,0 +1,10 @@
+div,span { padding:8px; text-align:center; background-color:white;
+           border-left:1px solid gray; border-right:2px solid black; 
+           border-top:1px solid gray; border-bottom:2px solid black; }
+p { background-color:gold; color:black; margin:0; text-align:left; } 
+
+*.float { margin:0px 10px;  width:120px; background-color:yellow; color:black; }
+*.left        { float:left;  }     *.right       { float:right; }
+*.clear-left  { clear:left;  }     *.clear-right { clear:right; }
+*.clear-both  { clear:both;  }     *.clear-none  { clear:none;  }
+

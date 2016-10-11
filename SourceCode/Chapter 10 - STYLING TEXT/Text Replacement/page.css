@@ -1,0 +1,4 @@
+#h2     { position:relative; width:250px; height:76px; padding:0; overflow:hidden; }
+
+#h2 span{ position:absolute; width:250px; height:76px; left:0; top:0; margin:0; 
+          background-image:url("heading2.jpg"); background-repeat:no-repeat; }

@@ -1,0 +1,10 @@
+*.bb-list     { padding-left:40px; margin-left:0; margin-top:20px; } 
+*.bb-list li, 
+*.bb-list dt,
+*.bb-list dd,
+*.bb-list p   { padding-left:40px; margin-left:-40px; list-style-type:none;
+                margin-top:0; margin-bottom:0;  }
+
+*.bb1 { background:url("check.gif") no-repeat 10px 1px; }
+*.bb2 { background:url("star.gif")  no-repeat 10px 1px; }
+

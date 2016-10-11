@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" > 
+<head><title>Float and Clear</title>
+ <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+ <link rel="stylesheet" href="site.css"   media="all"    type="text/css" />
+ <link rel="stylesheet" href="page.css"   media="all"    type="text/css" />
+ <link rel="stylesheet" href="print.css"  media="print"  type="text/css" />
+ <!--[if lte IE 6]>
+ <link rel="stylesheet" href="ie6.css"    media="all"    type="text/css" />
+ <![endif]-->
+</head>
+
+<body>
+
+ <h1>Float and Clear</h1>
+ <div>
+  <div    class="float left  clear-left" >Float Left </div> 
+  <div    class="float right clear-right">Float Right</div>
+
+  <p      class="clear-none" >This paragraph does not clear floats.
+    <span class="float right clear-right">Float Right - cleared right</span>
+    <span class="float right clear-none" >Float Right - NOT cleared</span></p>
+
+  <p      class="clear-left" >This paragraph clears floats on its left side.</p>
+  <div    class="float left  clear-left" >Float Left - cleared left</div>
+  <div    class="float left  clear-none" >Float Left - NOT cleared</div>
+
+  <p      class="clear-right">This paragraph clears floats on its right side. 
+    <span class="float left  clear-left" >Float Left </span> 
+    <span class="float right clear-right">Float Right</span></p>
+
+  <p      class="clear-both">This paragraph clears floats on both sides.</p> </div>
+
+</body>
+</html>

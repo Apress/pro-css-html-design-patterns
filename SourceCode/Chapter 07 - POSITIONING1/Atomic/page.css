@@ -1,0 +1,22 @@
+/* Non-essential Styles */
+div           { position:relative; padding:5px; margin-bottom:30px; border:2px solid black; }
+p,span,table  { margin:5px 20px; padding:5px; background-color:gold; text-align:center; 
+                border-left:1px solid gray; border-right:2px solid black; 
+                border-top:1px solid gray; border-bottom:2px solid black; }
+
+table         { width:646px; padding:2px; }
+
+*.fixed, *.absolute { width:633px; }
+
+
+/* Essential Styles */
+
+*.static   { position:static; }
+*.overlap  { margin-top:-22px; }
+
+*.relative { position:relative; }
+*.fixed    { position:fixed; margin-top:-16px; }
+*.absolute { position:absolute; top:65px; }
+
+
+

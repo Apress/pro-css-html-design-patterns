@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" > 
+ <head><title>Fluid Layout</title>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" href="site.css"   media="all"    type="text/css" />
+  <link rel="stylesheet" href="page.css"   media="all"    type="text/css" />
+  <link rel="stylesheet" href="print.css"  media="print"  type="text/css" />
+  <!--[if lte IE 6]>
+  <link rel="stylesheet" href="ie6.css"    media="all"    type="text/css" />
+  <![endif]-->
+  <!--[if IE 7]>
+  <link rel="stylesheet" href="ie7.css"    media="all"    type="text/css" />
+  <![endif]-->
+ </head>
+ 
+ <body>
+  
+ <h1>Fluid Layout</h1>
+ 
+ <div id="main"><div class="oi1"> <h2>main - 100%</h2>
+    <div id="nav"><div class="oi2"> <h3>nav - 20%</h3> </div></div>
+
+    <div id="content"><div class="oi2"> <h3>content - 60%</h3> 
+       <span id="head"  ><span class="oi3"> <em>head   - 35%</em> </span></span>
+       <span id="detail"><span class="oi3"> <em>detail - 65%</em> </span></span>
+       <span class="float-divider"></span></div></div>
+
+    <div id="news"><div class="oi2"> <h3>news - 20%</h3> </div></div>
+
+    <div class="float-divider"></div></div></div>
+
+
+ </body>
+</html>

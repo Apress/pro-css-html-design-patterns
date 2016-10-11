@@ -1,0 +1,6 @@
+
+div,span  { border:1px solid black; background-color:gold; padding:5px; }
+
+*.tabled  { display:table; border-collapse:collapse; }
+*.rowed   { display:table-row;  }
+*.celled  { display:table-cell; }

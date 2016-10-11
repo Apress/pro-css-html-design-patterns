@@ -1,0 +1,15 @@
+*.gp { position:relative; height:295px; width:600px; border:2px solid black;  }
+*.parent  { margin:10px; padding:10px; padding-top:0; border:1px solid black; }
+*.ex      { padding:5px;  border:5px solid black;  background-color:gold;     }
+div.ex  span { margin-left:-60px; border:1px dotted black; }
+span.ex span { margin-left:30px;  border:none;             }
+#zs { position:static;         text-align:left;                  margin-top:5px;
+      width:400px;             margin-left:50px;               margin-right:auto;  }
+#ss { position:static;         text-align:left;                  margin-top:5px;
+      width:auto;              margin-left:50px;              margin-right:0;      }
+#za { position:absolute;       text-align:left;             top:0; margin-top:155px;
+      width:400px;  left:0;    margin-left:-50px;  right:auto;  margin-right:auto; }
+#wa { position:absolute;       text-align:left;             top:0; margin-top:200px;
+      width:auto;   left:0;    margin-left:-50px; right:auto;  margin-right:auto; }
+#sa { position:absolute;       text-align:left;             top:0; margin-top:245px;
+      width:auto;   left:0;    margin-left:-50px;  right:0;     margin-right:0;    }

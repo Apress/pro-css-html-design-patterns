@@ -1,0 +1,21 @@
+/* Non-essential Styles */
+table  { background-color:gold; }
+td     { border:2px solid black; padding-top:10px; padding-left:3px;  }
+
+table  { border-collapse:collapse;  margin-top:10px; }
+td     { overflow:hidden;                            }
+
+/* Essential Styles */
+
+*.auto-layout   { table-layout:auto; }   
+*.shrinkwrapped { width:auto;        }   
+
+*.p2   { width:50%;    }  /*  2 columns */
+*.p3   { width:33.5%;  }  /*  3 columns */
+*.p4   { width:25%;    }  /*  4 columns */
+*.p5   { width:20%;    }  /*  5 columns */
+*.p6   { width:16.5%;  }  /*  6 columns */
+*.p7   { width:14.1%;  }  /*  7 columns */
+*.p8   { width:12.3%;  }  /*  8 columns */
+*.p9   { width:11%;    }  /*  9 columns */
+*.p10  { width:10%;    }  /* 10 columns */

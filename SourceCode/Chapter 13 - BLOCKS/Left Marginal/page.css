@@ -1,0 +1,7 @@
+*.left-marginal   { position:relative; width:480px;
+                    margin-left:230px; margin-right:auto; }
+*.marginal-header { position:absolute; left:-220px; width:160px; font-weight:bold; }
+*.marginal-note   { position:absolute; left:-180px; width:150px; 
+                    font-style:italic; font-size:14px; font-weight:normal; }
+*.marginal-alert  { position:absolute; left:-180px; font-style:italic; }
+*.marginal-flag   { position:absolute; left:-40px;  margin-top:-5px; }

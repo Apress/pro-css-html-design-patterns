@@ -1,0 +1,18 @@
+/* Non-essential Styles */
+table  { background:gold url("ruler.gif") repeat-x; }
+td     { border:2px solid black; padding-top:20px; padding-left:3px;  }
+
+table  { border-collapse:collapse;   }
+td     { overflow:hidden;            }
+
+/* Essential Styles */
+*.auto-layout   { table-layout:auto;  }   *.fixed-layout { table-layout:fixed; }
+*.shrinkwrapped { width:auto;         }
+*.min-width1    { width:1px;          }   *.min-width2   { width:700px;        }
+*.sized1        { width:200px;        }   *.sized2       { width:300px;        }
+
+
+
+
+
+

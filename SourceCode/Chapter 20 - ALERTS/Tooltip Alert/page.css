@@ -1,0 +1,4 @@
+*.tooltip-image { cursor:help; margin-left:3px; }
+
+*.tooltip       { cursor:help; border-bottom:1px dotted; 
+                  font-style:normal; font-size:0.8em; }

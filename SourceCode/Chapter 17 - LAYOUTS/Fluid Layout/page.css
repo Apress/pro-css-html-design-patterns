@@ -1,0 +1,25 @@
+/* Non-essential Styles */
+h2    { margin:0; font-size:1.1em; text-align:left; }
+h3    { margin:0; font-size:1em; }
+
+*.oi1,*.oi2,*.oi3  
+         { border-left:1px solid gray; border-right:2px solid black; 
+           border-top:1px solid gray; border-bottom:2px solid black; }
+
+/* Essential Styles */
+
+*.float-divider { clear:both; display:block; 
+                  height:1px; font-size:1px; line-height:1px; }
+
+*.oi1    { background-color:white;  margin:0;   padding:5px;}
+*.oi2    { background-color:gold;   margin:5px; padding:5px;}
+*.oi3    { background-color:yellow; margin:5px; padding:5px;}
+
+#main             { max-width:700px;  } 
+  #nav            { float:left; width:20%;  min-width:75px;   }
+  #content        { float:left; width:60%;  min-width:150px;  }
+  #news           { float:left; width:20%;  min-width:115px;  }
+  #nav     *.oi2  { min-height:43px;  }
+  #content *.oi3  { display:block;    }
+    #head         { float:left; width:35%;  min-width:75px; }
+    #detail       { float:left; width:65%;  min-width:75px; }

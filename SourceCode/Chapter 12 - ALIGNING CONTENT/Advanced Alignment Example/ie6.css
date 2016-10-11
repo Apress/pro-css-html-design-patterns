@@ -1,0 +1,11 @@
+/* Internet Explorer 6 subscript and superscript uses a larger font. 
+   Internet Explorer 6 uses a different algorithm to choose the font of less
+   common characters, such as the SUMMATION symbol. To make the rendered font the
+   same size as other browsers requires different sizing and positioning.
+*/
+
+sub   { font-size:0.9em; }
+
+*.ac1-sum { vertical-align:baseline; font-size:0.7em; 
+            position:relative;       left:0.1em; }
+

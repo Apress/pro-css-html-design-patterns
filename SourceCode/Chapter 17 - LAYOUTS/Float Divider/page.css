@@ -1,0 +1,16 @@
+/* Non-essential Styles */
+h2    { margin:10px 0; font-size:1.1em; }
+h3    { margin:0; font-size:1em; }
+
+*.box  { margin-right:40px; padding:5px; background-color:gold; text-align:center;
+         border-left:1px solid gray; border-right:2px solid black; 
+         border-top:1px solid gray; border-bottom:2px solid black;}
+
+/* Essential Styles */
+*.float         { float:left; }
+
+*.float-divider { clear:both; 
+                  height:20px;
+                  margin-bottom:20px; 
+                  border-bottom:5px solid black; 
+                  font-size:1px; line-height:1px; }

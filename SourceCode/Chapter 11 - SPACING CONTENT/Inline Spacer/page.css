@@ -1,0 +1,5 @@
+*.space         { margin-left:0.5em;   }
+*.extra-space   { margin-left:0.75em;  }
+*.double-space  { margin-left:1em;     }
+*.triple-space  { margin-left:1.5em;   }
+*.quad-space    { margin-left:2em;     }

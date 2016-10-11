@@ -1,0 +1,36 @@
+/* Core code for changing the displayed box of elements. */
+
+p,ol,li,table { display:inline;                            }
+strong        { display:inline-block; width:250px;         }
+em            { display:block;                             }
+dfn           { display:list-item; list-style-type:square; }
+img           { display:none;                              }
+
+*.ul          { padding-left:15px;  }
+
+
+
+
+
+/* Code to style the example. */
+*.table,*.row,*.cell,img,li,em,dfn,strong,td,p
+       { border:1px solid black; background-color:gold; padding:1px 5px; }
+ol     { margin:0; padding:0;         }
+li     { margin:0; margin-right:5px;  }
+strong { vertical-align:middle; text-align:center;  }
+code   { font-style:normal; font-weight:normal; }
+
+
+
+
+
+
+/* The following display types do not work in Internet Explorer 7.
+   You can add them to the example by removing display:none        */
+*.inline-table { display:inline-table;      display:none;   }
+*.table        { display:table;             display:none;   }
+*.row          { display:table-row;         display:none;   }
+*.cell         { display:table-cell;        display:none;   }
+
+
+

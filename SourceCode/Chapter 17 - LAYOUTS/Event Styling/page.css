@@ -1,0 +1,35 @@
+/* Non-essential Styles */
+h2      { margin:0; font-size:1.1em; margin-bottom:5px; }
+h3      { margin:0; font-size:1em;   }
+p,ul,dl { margin-top:5px; margin-bottom:0; }
+
+
+*.oi { background-color:yellow; padding:5px; 
+       border-left:1px solid gray; border-right:2px solid black; 
+       border-top:1px solid gray; border-bottom:2px solid black; }
+
+*.float-divider  { clear:both; height:1px; font-size:1px; line-height:1px; }
+
+#main { background-color:gold; padding: 5px 10px; 
+        border-left:1px solid gray; border-right:2px solid black; 
+        border-top:1px solid gray; border-bottom:2px solid black; }
+
+#faq        { float:left; width:50%; min-width:170px;  }
+#faq  *.oi  { margin:0; padding:5px; }
+
+#info       { float:left; width:50%; min-width:170px; }
+#info  *.oi { margin-left:20px; padding:5px; }
+
+
+/* Essential Styles */
+
+*.rollup-trigger       { cursor:pointer; }
+*.rollup-trigger:hover { color:firebrick; }
+
+span.rollup-trigger    { font-size:0.65em; padding-left:8px; 
+                         background:url("hide.gif") no-repeat left top; }
+span.rolledup          { background:url("show.gif") no-repeat left top; }
+
+*.hidden               { position:absolute; top:-99999px; left:-99999px; 
+                         width:1px; height:1px; overflow:hidden; }
+

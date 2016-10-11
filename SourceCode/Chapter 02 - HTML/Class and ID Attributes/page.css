@@ -1,0 +1,10 @@
+*.vevent p          { margin:0 0 5px 0; font-size:0.9em; }
+*.vevent h3         { margin:0 0 5px 0; }
+
+*.vevent *.location { font-style:italic; }
+*.vevent *.uid      { font-family:monospace; }
+*.vevent *.dtstart, 
+*.vevent *.dtend, 
+*.vevent *.dtstamp  { color:green; }
+
+#hcalendar1 { margin:5px; border:1px solid black; padding:10px; }

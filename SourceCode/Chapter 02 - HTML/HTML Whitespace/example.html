@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" > 
+<head><title>HTML Whitespace</title>
+ <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+ <link rel="stylesheet" href="site.css"   media="all"    type="text/css" />
+ <link rel="stylesheet" href="page.css"   media="all"    type="text/css" />
+ <link rel="stylesheet" href="print.css"  media="print"  type="text/css" />
+ <!--[if lte IE 6]>
+ <link rel="stylesheet" href="ie6.css"    media="all"    type="text/css" />
+ <![endif]-->
+</head>
+
+<body>
+
+<h1>HTML Whitespace</h1>
+<p>     start    middle  &#x0020; &#x0009;  <span> </span>    <span></span>
+                                      &#x000A; &#x000D;  	  end      </p>
+
+<h2>Controlling Where Whitespace Collapses</h2>
+<p>start<span class="border">  middle </span> end<em>—inside element</em></p>
+<p>start <span class="border"> middle</span>  end<em>—outside element</em></p>
+
+<h2>Embedding Whitespace Inside Tags</h2>
+ <p>start<span 
+          class 
+           =
+            "spaced"
+             >middle</span
+              >end</p>
+
+<h2>Embedding Space Entities</h2>
+<code>&amp;zwnj;   </code><span class="border">&zwnj;</span>    &nbsp;
+<code>&amp;thinsp; </code><span class="border">&thinsp;</span>  &nbsp;
+<code>&amp;nbsp;   </code><span class="border">&nbsp;</span>    &nbsp;
+<code>&amp;ensp;   </code><span class="border">&ensp;</span>    &nbsp;
+<code>&amp;emsp;   </code><span class="border">&emsp;</span>    &nbsp;
+
+
+</body>
+</html>

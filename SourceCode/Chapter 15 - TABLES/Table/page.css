@@ -1,0 +1,6 @@
+table  { width:auto; height:1px; table-layout:auto; border-collapse:collapse; 
+         margin-left:20px; border:1px solid black; }
+
+td, th { width:50px; height:1px; overflow:hidden; visibility:visible;
+         border:1px solid black; padding:5px; background:gold; 
+         text-align:center; vertical-align:middle; text-indent:5px;  }

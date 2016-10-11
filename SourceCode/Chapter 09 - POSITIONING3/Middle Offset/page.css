@@ -1,0 +1,14 @@
+*.gp { position:relative; height:300px; width:700px; border:2px solid black;       }
+*.ex1 { width:120px; padding:5px; text-align:center; border:1px dotted black;      }
+*.ex2 { position:relative; border:5px solid black;  background-color:gold; left:0; }
+*.ex1 span { height:36px; left:0; width:130px;
+         position:absolute; top:0; margin-top:auto; bottom:0; margin-bottom:auto;  }
+
+#ia   { height:100px; top:60px; margin-top:auto;  bottom:-60px; margin-bottom:auto; 
+        position:absolute;      line-height:100px;             margin-left:40px;  }
+#za   { height:100px; top:60px; margin-top:auto;  bottom:-60px; margin-bottom:auto; 
+        position:absolute;                                      margin-left:200px; }
+#wa   { height:auto;  top:0;    margin-top:150px; bottom:0;     margin-bottom:30px; 
+        position:absolute;                                      margin-left:355px; }
+#sa   { height:auto;  top:0;    margin-top:150px; bottom:0;     margin-bottom:30px; 
+        position:absolute;                                      margin-left:510px; }

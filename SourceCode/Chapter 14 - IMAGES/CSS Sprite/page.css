@@ -1,0 +1,28 @@
+/* Non-essential styles */ 
+body { background:white; }
+
+
+#sprite   { visibility:visible; position:absolute; left:450px; top:30px; }
+#sprite-h { visibility:visible; position:absolute; left:450px; top:10px; font-size:0.7em; font-family:monospace; }
+#sprite-v { visibility:visible; position:absolute; left:600px; top:30px; font-size:0.7em; font-family:monospace;  }
+
+#nw       { position:relative; }
+ #olympia { position:absolute; top:20px;  left:50px;  }
+ #salem   { position:absolute; top:110px; left:40px; }
+ #boise   { position:absolute; top:120px; left:180px; }
+
+
+
+ 
+/* Essential styles */ 
+
+*.screenreader-only { position:absolute; left:-9999px; top:-9999px; 
+                      width:1px; height:1px; overflow: hidden; } 
+
+*.bang-bg { background:url("bt.gif") -48px -16px; width:16px; height:16px; }
+*.flag-bg { background:url("bt.gif") -64px -16px; width:16px; height:16px; }
+*.star-bg { background:url("bt.gif") -64px -32px; width:16px; height:16px; }
+
+*.star-bg:hover { background-image:url("wt.gif"); background-color:black;  }
+*.flag-bg:hover { background-image:url("wt.gif"); background-color:black;  }
+*.bang-bg:hover { background-image:url("wt.gif"); background-color:black;  }

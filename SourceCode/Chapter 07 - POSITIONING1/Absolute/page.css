@@ -1,0 +1,22 @@
+/* Non-essential styles */
+h2 { font-size:16px; margin:5px 0; }
+*.gp     { height:225px; border:2px solid black; }
+*.parent { margin:10px; padding:10px; padding-top:0;    border:1px solid black; background-color:transparent;}
+*.box    { margin:0;    padding:5px; text-align:center; border:5px solid black; background-color:gold; }
+
+
+/* Essential Styles */
+
+*.gp { position:relative; z-index:1;  }
+
+#in-place      { position:absolute; z-index:1; }
+
+#shrinkwrapped { position:absolute; z-index:0; 
+                 width:auto; left:0; bottom:0; margin:0; }
+
+#sized         { position:absolute; z-index:auto; 
+                 width:170px; height:115px; bottom:0; left:270px; margin:0; }
+
+#stretched     { position:absolute; z-index:-1; 
+                 height:auto; right:0; top:0; bottom:0; margin:0; }
+

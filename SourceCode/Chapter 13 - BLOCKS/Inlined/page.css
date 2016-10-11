@@ -1,0 +1,8 @@
+div                  { padding:10px; margin-bottom:15px; border:2px solid black; }
+table, p, td, ul, li { margin-top:0px; margin-bottom:10px; padding-right:5px; }
+p, td, ul, li        { background-color:gold; padding-top:5px; padding-bottom:5px;
+                       border-left:1px solid gray; border-right:2px solid black; 
+                       border-top:1px solid gray; border-bottom:2px solid black; }
+                
+*.inlined { display:inline; line-height:normal; padding:5px; margin:5px; }
+

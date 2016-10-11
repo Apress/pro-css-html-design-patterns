@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" > 
+ <head><title>Nowrap</title>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" href="site.css"   media="all"    type="text/css" />
+  <link rel="stylesheet" href="page.css"   media="all"    type="text/css" />
+  <link rel="stylesheet" href="print.css"  media="print"  type="text/css" />
+  <!--[if lte IE 6]>
+  <link rel="stylesheet" href="ie6.css"    media="all"    type="text/css" />
+  <![endif]-->
+ </head>
+ 
+ <body>
+ 
+ <h1>Nowrap</h1>
+ <div>
+   <p>You can keep a phrase together using <code>nowrap</code>, such as 
+    <span class="nowrap">DO NOT BREAK THIS ACROSS TWO LINES!</span></p>
+  
+   <p>You can use nowrap to keep some browsers from breaking a hyphenated word
+      across two lines, such as the following word:
+      <span class="nowrap">super-cali-fragilistic-expi-ali-docious!</span></p>
+  
+   <p>You can keep together a small code snippet containing a space, such as
+      <code class="nowrap">&lt;br /&gt;</code>.</p>
+   <p>Notice how it breaks across two lines when <code>nowrap</code> 
+      is <em>not</em> applied to it: <code>&lt;br /&gt;</code>.</p>
+        
+   <p class="nowrap">Be aware that nowrapped text can overflow its container. This
+      does not affect the width of other elements, but it may cause a browser to 
+      display a horizontal scrollbar requiring users to scroll to see the text.</p>
+ </div>
+
+
+ </body>
+</html>

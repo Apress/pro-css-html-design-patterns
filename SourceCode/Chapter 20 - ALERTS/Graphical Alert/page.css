@@ -1,0 +1,18 @@
+*.alert           { position:relative; margin:20px 0 20px 120px; }
+*.alert h3        { margin:10px 0; font-weight:bold;
+                    font-size:1.3em; text-transform:uppercase; }
+*.alert p         { margin:10px 0; }
+
+*.alert.tip p     { color:green; border:4px ridge green; padding:20px; }
+
+*.alert.tip h3    { position:absolute; left:-100px; top:-15px; 
+                    width:71px; height:117px; padding:0; overflow:hidden;  }
+
+*.alert.tip h3 em { position:absolute; left:20px; top:25px; }
+                   
+*.alert.tip span  { position:absolute; left:0; top:0; margin:0; 
+                    width:71px; height:117px; background:url("tip.jpg") no-repeat; }
+
+
+
+

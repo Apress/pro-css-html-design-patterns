@@ -1,0 +1,5 @@
+code { white-space:pre; }
+
+p[title] { padding:5px 10px; border:1px solid gray; }
+p[title~="paragraph"] { background-color:gold; }
+p[title="#4   paragraph"] { font-weight:bold; }

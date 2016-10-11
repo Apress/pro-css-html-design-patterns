@@ -1,0 +1,30 @@
+/* Non-essential Styles */
+p { margin:10px; }
+
+
+/* Essential Styles */
+
+ul.tabs a:link, ul.tabs a:visited, ul.tabs a:active 
+                    { text-decoration:none;      color:maroon; }  
+ul.tabs a:hover, ul.tabs a:focus     
+                    { text-decoration:underline; color:black;  }
+ul.tabs a           { display:block; }
+
+
+ul.tabs       { float:left; width:100%; padding:0; margin:0; 
+                border-bottom:1px solid gold; margin-bottom:10px; }
+
+ul.tabs li    { float:left; width:25%; list-style-type:none;  }
+
+ul.tabs *.tab-label { border:1px solid gold; margin:0; cursor:pointer; 
+                      padding-bottom:2px; padding-top:2px; 
+                      background:white url("g1.jpg") repeat-x left bottom;
+                      font-weight:normal; text-align:center; font-size:1.1em; } 
+
+ul.tabs li.selected *.tab-label { position:relative; border-bottom:none; 
+           top:1px; padding-bottom:4px; cursor:auto;
+           padding-top:5px; border-top:2px solid gold; margin-top:-5px; 
+           background:white url("g2.jpg") repeat-x left top; font-weight:bold; }
+
+#main { border:1px solid gold; border-top:none; }
+

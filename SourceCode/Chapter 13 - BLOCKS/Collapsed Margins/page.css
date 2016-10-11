@@ -1,0 +1,13 @@
+div            { margin:10px; padding-left:30px; background-color:gold;
+                 background-image: url("ruler.gif"); background-repeat:repeat-y; }
+*.border       { border:2px solid black; }
+
+*.collapsed    { margin-top:20px;   margin-bottom:20px; }
+
+*.uncollapsed1 { margin-top:0;      margin-bottom:0; 
+                 padding-top:20px;  padding-bottom:20px; 
+                 background-color:transparent; }
+
+*.uncollapsed2 { margin-top:0;      margin-bottom:0; 
+                 border-top:20px    solid transparent;  
+                 border-bottom:20px solid transparent; }

@@ -1,0 +1,16 @@
+*.gp { position:relative; height:300px; width:700px; border:2px solid black;  }
+*.parent  { margin:10px; padding:10px; padding-top:0; border:1px solid black; }
+*.ex      { padding:5px;  border:5px solid black;  background-color:gold; 
+            width:120px; text-align:center; position:relative;  }
+*.ex span { left:0; width:130px; height:auto; }
+
+#zs { height:100px;             margin-top:25px;                margin-bottom:0; 
+      position:static;                                                             }
+#ws { height:auto;              margin-top:-70px;               margin-bottom:0;    
+      position:static;                                    background-color:yellow; }
+#za { height:100px;      top:0; margin-top:70px;  bottom:auto;  margin-bottom:auto; 
+      position:absolute;                                        margin-left:200px; }
+#wa { height:auto;       top:0; margin-top:70px;  bottom:auto;  margin-bottom:0; 
+      position:absolute;                                        margin-left:355px; }
+#sa { height:auto;       top:0; margin-top:70px;  bottom:0;     margin-bottom:0; 
+      position:absolute;                                        margin-left:510px; }

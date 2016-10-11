@@ -1,0 +1,5 @@
+/* Internet Explorer 6 has a bug that sometimes positions the background image  
+   at different offset than it should. The rules below compensate. */
+
+*.dropcap3:first-letter {  background-position:0px 0px; padding:60px 50px; }
+

@@ -1,0 +1,28 @@
+/* Non-essential Styles */
+h1   { margin:0; font-size:1.9em;  }
+h2   { margin:0; font-size:1.1em; text-align:left; }
+h3   { margin:0; font-size:1em; }
+form { margin:0; padding:0; }
+p    { margin:0; }
+
+body        { max-width:720px; }
+#header     { background-color:gold; padding:5px; 
+              border-left:1px solid gray; border-right:2px solid black; 
+              border-top:1px solid gray; border-bottom:2px solid black; }
+
+#postheader       { font-size:0.7em; padding:3px 0; }
+#search *.message { margin-top:5px; font-size:0.8em; }
+
+           
+/* Essential Styles */
+
+
+*.float-divider { clear:both; display:block; 
+                  height:1px; font-size:1px; line-height:1px; }
+
+*.breadcrumbs { float:left;                   max-width:350px; margin-left:10px;  }
+*.post-msg    { float:right;                  max-width:350px; margin-right:10px; }
+
+#title        { float:left;  min-width:280px; max-width:350px; margin-left:0;     }
+#search       { float:right; min-width:280px; max-width:350px; margin-right:0;    }
+

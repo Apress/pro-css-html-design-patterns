@@ -1,0 +1,9 @@
+p               { padding:5px; padding-right:10px; background-color:gold; 
+                  border-left:1px solid gray; border-right:2px solid black; 
+                  border-top:1px solid gray; border-bottom:2px solid black;  }
+
+*.align-left    { text-align:left;    }
+*.align-center  { text-align:center;  }
+*.align-right   { text-align:right;   }
+*.align-justify { text-align:justify; }
+  

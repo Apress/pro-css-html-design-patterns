@@ -1,0 +1,12 @@
+div             { margin:10px; padding-left:30px; background-color:gold;}
+
+*.border        { border-left:1px solid gray; border-right:2px solid black; 
+                  border-top:1px solid gray; border-bottom:2px solid black; }
+
+*.popup-trigger { position:relative; }
+*.popup         { position:absolute; width:300px; left:0; top:1em; 
+                  padding:5px; background-color:white; z-index:1; } 
+
+*.popup-trigger *.popup { visibility:hidden;  }
+
+

@@ -1,0 +1,23 @@
+/* Non-essential Styles */
+h2    { margin:0; margin-top:20px; font-size:1.1em; font-style:italic; }
+h3    { margin:0; font-size:1em; }
+
+*.float-divider { clear:both; display:block; 
+                  height:1px; font-size:1px; line-height:1px; }
+
+*.container    { width:125px; height:60px; float:left; position:relative; 
+                 margin-right:75px; border:1px solid black; }
+
+*.before,*.oi  { background-color:gold; }
+
+
+/* Essential Styles */
+
+*.before       { width:100%; margin:5px; padding:5px; border:5px solid black; }
+
+*.after        { width:100%; }
+*.after   *.oi { margin:5px; padding:5px; border:5px solid black; display:block; }
+
+*.float    { float:left;        }
+*.absolute { position:absolute; }
+*.static   { position:static;   }

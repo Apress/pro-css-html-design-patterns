@@ -1,0 +1,4 @@
+*.alert-image { cursor:pointer; margin-left:3px; }
+
+*.alert       { cursor:pointer; border-bottom:1px dotted; 
+                font-style:normal; font-size:0.8em; }

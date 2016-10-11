@@ -1,0 +1,50 @@
+/* Non-essential styles */ 
+p   { margin:0; }
+h1  { font-size:1.1em; }
+body { background:white; }
+/* Essential styles */ 
+
+img { margin-top:10px; display:block; border:none; }
+
+*.shadowed { padding-right:10px; padding-bottom:10px; 
+             background:url("shadow.png") right bottom no-repeat; }
+
+*.screenreader-only { position:absolute; left:-9999px; top:-9999px; 
+                      width:1px; height:1px; overflow: hidden; } 
+
+a   { text-decoration:none; color:black; }
+a:hover { border-left:1px solid silver; border-right:1px solid gray; color:white;
+          border-top:1px solid silver;  border-bottom:1px solid gray; 
+          background-image:url("semi-transparent.png"); background-repeat:repeat-x; }
+*.overlay { padding:2px 4px; }
+
+*.bg { background:url("white2trans.png") top left repeat-x yellow; margin-top:20px;}
+*.tl { background:url("rc.gif") top left     no-repeat; }
+*.br { background:url("rc.gif") bottom right no-repeat; }
+
+*.trc { background:url("rc-trc.gif") top right   no-repeat; }
+*.blc { background:url("rc-blc.gif") bottom left no-repeat; }
+
+*.pad { padding:10px; }
+
+*.bang-bg { background:url("bt.gif") -48px -16px; width:16px; height:16px; }
+*.flag-bg { background:url("bt.gif") -64px -16px; width:16px; height:16px; }
+*.star-bg { background:url("bt.gif") -64px -32px; width:16px; height:16px; }
+
+*.bang-bg:hover { background-image:url("wt.gif"); background-color:black;  }
+*.star-bg:hover { background-image:url("wt.gif"); background-color:black;  }
+*.flag-bg:hover { background-image:url("wt.gif"); background-color:black;  }
+
+#states       { position:relative; float:left; }
+  #washington { position:absolute; top:35px;  left:80px;   }
+  #oregon     { position:absolute; top:135px; left:85px;   }
+  #idaho      { position:absolute; top:150px; left:210px;  }
+  #wyoming    { position:absolute; top:55px;  left:290px;  }
+  #montana    { position:absolute; top:175px; left:330px;  }
+
+  #olympia    { position:absolute; top:55px;  left:80px;  }
+  #salem      { position:absolute; top:130px; left:65px;  }
+  #boise      { position:absolute; top:145px; left:195px; }
+  
+  #info       { zoom:1; position:absolute; left:50px; bottom:-10px; width:350px;}
+

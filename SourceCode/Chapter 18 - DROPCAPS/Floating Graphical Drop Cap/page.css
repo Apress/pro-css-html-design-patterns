@@ -1,0 +1,12 @@
+*.floating-dropcap      { float:left; position:relative; top:5px; 
+                          margin-left:80px; margin-right:12px; margin-bottom:0px;
+                          width:100px; height:90px; 
+                          line-height:80px; text-align:right; 
+                          font-size:100px; font-weight:bold;  
+                          color:black; background-color:white; }
+
+*.floating-dropcap span { position:absolute; 
+                          width:100px; height:90px; margin:0; left:0; top:0; 
+                          background-image:url("f.jpg"); 
+                          background-repeat:no-repeat; }
+

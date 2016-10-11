@@ -1,0 +1,3 @@
+/* Internet Explorer 6 uses the filter property to create shadows. */
+
+*.shadow { filter:shadow(color=#999999, direction=135, strength=4);  zoom:1; }

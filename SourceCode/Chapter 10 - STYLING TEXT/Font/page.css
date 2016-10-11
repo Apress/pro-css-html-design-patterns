@@ -1,0 +1,10 @@
+*.family1  { font-family:sans-serif;   } *.family2  { font-family:serif;         }
+                                         *.family3  { font-family:monospace;     }
+*.size1    { font-size:small;          } *.size2    { font-size:medium;          }
+                                         *.size3    { font-size:large;           }
+*.style1   { font-style:normal;        } *.style2   { font-style:italic;         }
+*.weight1  { font-weight:normal;       } *.weight2  { font-weight:bold;          }
+*.variant1 { font-variant:normal;      } *.variant2 { font-variant:small-caps;   }
+*.color1   { color:black;              } *.color2   { color:gold;                }
+*.trans1   { text-transform:none;      } *.trans2   { text-transform:lowercase;  }
+*.trans3   { text-transform:uppercase; } *.trans4   { text-transform:capitalize; }

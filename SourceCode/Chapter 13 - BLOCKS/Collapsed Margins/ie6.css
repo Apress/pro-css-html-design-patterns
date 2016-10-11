@@ -1,0 +1,7 @@
+/* Internet Explorer 6 does not support transparent borders. Thus we have to 
+   set them to the background color. This works as long as the background is
+   not an image.
+*/
+
+*.uncollapsed2 { border-top:20px solid gold;  border-bottom:20px solid gold; }
+

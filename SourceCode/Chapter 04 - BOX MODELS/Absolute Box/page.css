@@ -1,0 +1,18 @@
+*.container { position:relative; border:1px solid gray;  text-align:center; }
+
+*.default   { position:static; left:auto; right:auto; top:auto; bottom:auto;
+              width:auto; height:auto; overflow:visible; visibility:visible;
+              margin:0; padding:0; border:none; background-color:gold;  }
+            
+*.box { position:absolute;    overflow:auto; visibility:visible; 
+        z-index:auto; left:0; right:auto; top:0; bottom:auto;
+        width:220px;  height:100px; 
+        margin:10px;  padding:10px;
+    
+    
+        border-left:5px solid gray; border-right:5px solid black; 
+        border-top:5px solid gray;  border-bottom:5px solid black; 
+        background-color:gold; }
+
+*.before{width:100px; height:auto; left:400px; right:auto; top:100px; bottom:auto; }
+*.after {width:100px; height:auto; left:auto;  right:0px;  top:auto;  bottom:0px;  }

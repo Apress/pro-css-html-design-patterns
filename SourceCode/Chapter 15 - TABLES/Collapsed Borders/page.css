@@ -1,0 +1,13 @@
+/* Non-essential Styles */ 
+div   { margin-right:40px; }
+h3    { margin:0; margin-top:15px; margin-bottom:1px; font-size:1em; font-weight:normal; }
+td    { padding:2px; text-align:center; background-color:gold; width:50px; }
+
+
+/* Essential Styles */
+
+table              { border-collapse:collapse; }
+*.boxed-table      { border:1px solid black;   }
+*.boxed-cells td   { border:1px solid black;   }
+*.boxed-cells td.x { border:none;              }
+

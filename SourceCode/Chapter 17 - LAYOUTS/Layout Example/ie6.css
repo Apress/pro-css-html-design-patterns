@@ -1,0 +1,19 @@
+/* These styles fix limitations and bugs in Internet Explorer 6.
+   The other design patterns in Chapter 17 explain these fixes. */
+
+
+/* MENU */
+*.menu li.flyout-trigger.hover { background:none firebrick; }
+*.menu li.hover a  { color:white; }
+
+/* TABS */
+ul.tabs *.tab-content { width:340px;  } 
+
+/* SECTIONS */
+#page { width:700px; }
+
+#header *.title     { width:50%; }
+#header *.search    { width:50%; }
+
+
+

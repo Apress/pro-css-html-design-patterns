@@ -1,0 +1,6 @@
+/* Because of differences in the way major browsers render the height of 
+   a line, you may want to add some extra vertical padding in other browsers
+   and remove some padding in Internet Explorer.
+*/
+   
+*.alert { padding:5px 20px 5px 20px; }

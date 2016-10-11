@@ -1,0 +1,8 @@
+*.alert        { margin:40px; 
+                 padding-left:20px; padding-right:20px;
+                 border-top:1px solid black; border-bottom:1px solid black;  
+                 background-color:gold; }
+*.alert h3     { font-size:1.3em; }
+*.alert p      { letter-spacing:1.5px; line-height:1.5em; }
+*.alert.tip h3 { text-transform:uppercase;  }
+

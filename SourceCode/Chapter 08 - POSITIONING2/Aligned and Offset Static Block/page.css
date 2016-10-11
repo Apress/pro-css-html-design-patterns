@@ -1,0 +1,10 @@
+div { margin:10px; padding-top:0; border:2px solid black;      }
+p   {padding:5px; background-color:gold; text-align:center;
+     border-left:1px solid gray; border-right:2px solid black; 
+     border-top:1px solid gray; border-bottom:2px solid black; }
+
+#left      { position:static; width:120px; margin-left:0;    margin-right:auto; }
+#left-off  { position:static; width:200px; margin-left:50px; margin-right:auto; }
+#center    { position:static; width:120px; margin-left:auto; margin-right:auto; }
+#right     { position:static; width:120px; margin-left:auto; margin-right:0;    }
+#right-off { position:static; width:200px; margin-left:auto; margin-right:50px; }

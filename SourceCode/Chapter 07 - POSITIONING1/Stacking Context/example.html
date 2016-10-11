@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" > 
+<head><title>Stacking Context</title>
+ <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+ <link rel="stylesheet" href="site.css"   media="all"    type="text/css" />
+ <link rel="stylesheet" href="page.css"   media="all"    type="text/css" />
+ <link rel="stylesheet" href="print.css"  media="print"  type="text/css" />
+ <!--[if lte IE 6]>
+ <link rel="stylesheet" href="ie6.css"    media="all"    type="text/css" />
+ <![endif]-->
+</head>
+
+<body>
+
+<h1>Stacking Context</h1>
+<div class="stacking-context1 box">
+  <div    class="caption"   >1. Background and Borders of Stacking Context #1
+    <br /><code>z-index:2</code></div>
+  <span   class="level2 box">2. Absolute <code>z-index:-999</code></span>
+  <div    class="level3 box">3. Static Block<br />
+    <span class="level4 box">4. Static Float</span>
+    <span class="level5 box">5. Static Span</span><br /><br /><p class="clear"></p>
+    <span class="level6 box">6. Relative Span <code>z-index:0</code></span>
+    <span class="level7 box">7. Absolute <code>z-index:999</code></span>
+  </div>
+</div>
+
+<div class="stacking-context2 box">
+  <div    class="caption"   >1. Background and Borders of Stacking Context #2
+    <br /><code>z-index:1</code></div>
+  <span   class="level2 box">2. Absolute <code>z-index:-999</code></span>
+  <div    class="level3 box">3. Static Block<br />
+    <span class="level4 box">4. Static Float</span>
+    <span class="level5 box">5. Static Span</span><br /><br /><p class="clear"></p>
+    <span class="level6 box">6. Relative Span <code>z-index:0</code></span>
+    <span class="level7 box">7. Absolute <code>z-index:999</code></span>
+  </div>
+</div>
+
+
+
+</body>
+</html>

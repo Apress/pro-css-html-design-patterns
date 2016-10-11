@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" > 
+<head><title>HTML Structure</title>
+ <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+ <link rel="stylesheet" href="site.css"   media="all"    type="text/css" />
+ <link rel="stylesheet" href="page.css"   media="all"    type="text/css" />
+ <link rel="stylesheet" href="print.css"  media="print"  type="text/css" />
+ <!--[if lte IE 6]>
+ <link rel="stylesheet" href="ie6.css"    media="all"    type="text/css" />
+ <![endif]-->
+</head>
+
+<body>
+ <noscript>Show this when script cannot run.</noscript>
+ <div>
+  <h1>HTML Structure</h1>
+  <p>Paragraph</p>
+
+  <ol> <li>Ordered List Item</li>   <li>Ordered List Item</li>   </ol>
+  <ul> <li>Unordered List Item</li> <li>Unordered List Item</li> </ul>
+  <dl> <dt>Definition Term</dt>     <dt>Definition Term</dt>     
+       <dd>Definition Data</dd>     <dd>Definition Data</dd>     </dl>
+
+ <table><caption>Table Caption</caption>
+   <colgroup> <col /> <col /> </colgroup>
+   <thead><tr><td>row1-col1</td> <td>row1-col2</td></tr></thead>
+   <tfoot><tr><td>row3-col1</td> <td>row3-col2</td></tr></tfoot>
+   <tbody><tr><td>row2-col1</td> <td>row2-col2</td></tr></tbody></table>
+
+ <form id="form1" method="post" action="http://www.tipjar.com/cgi-bin/test" >
+  <input type="hidden" title="input hidden" name="hidden" value="Secret" />
+
+  <input  id="radio1" name="radios" type="radio" value="radio1" checked="checked" />
+  <label for="radio1">Radio1</label>
+
+  <input  id="radio2" name="radios" type="radio" value="radio2-pushed" />
+  <label for="radio2">Radio2</label>
+
+  <input  id="xbox1" name="xbox1" type="checkbox" value="xbox1" checked="checked" />
+  <label for="xbox1">Checkbox1</label>
+
+  <label for="inputtext">Input-text</label>
+  <input  id="inputtext" name="inputtext" type="text" value="Type here" size="14" />
+
+  <label    for="select1">Select</label>
+  <select   id="select1" name="select" size="2" >
+    <option selected="selected" value="item1" >Item1</option>
+    <option                     value="item2" >Item2</option>  </select>
+
+  <label   for="textarea" >Textarea</label>
+  <textarea id="textarea" name="textarea" rows="2" cols="10" >Textarea</textarea>
+
+  <input  type="submit" id="submit1" name="submit1" value="Submit" />
+  <input  type="reset"  id="reset1"  name="reset1"  value="Reset"  />
+  <button type="submit" id="button1" name="button1" value="Button1" >Button</button>
+ </form>
+
+ <div>Division within a Division <a id="link1" href="left.html">Link</a>
+  <img src="left-right.gif" width="20" height="20" usemap="#map1" alt="alt text" />
+  <map id="map1" name="map1">
+   <area href="left.html"  alt="left"  shape="rect" coords="0,0,10,20" />
+   <area href="right.html" alt="right" shape="rect" coords="10,0,20,20" /></map>
+
+  <span>span</span> 
+  <em>em</em> 
+  <strong>strong</strong>
+  <cite>cite</cite> 
+  <code>code</code> 
+  <kbd>kbd</kbd> 
+  <samp>samp</samp> 
+  <var>var</var>
+  <acronym>acronym</acronym> 
+  <abbr>abbr</abbr> 
+  <dfn>dfn</dfn>
+  <sub>sub</sub> 
+  <sup>sup</sup>
+  <bdo dir="rtl">backwards</bdo>
+  <br /> 
+
+  <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" 
+   codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" 
+   width="400" height="50" id="cssdesignpatterns" align="middle">
+   <param name="movie"   value="cssdesignpatterns.swf" />
+
+   <object type="application/x-shockwave-flash" data="cssdesignpatterns.swf" 
+         width="400" height="50"> <param name="movie" value="movie.swf" />
+    <img src="cssdesignpatterns.gif" alt="cssdesignpatterns.com" />
+   </object>	
+  </object>
+
+ </div>
+ <address>address</address> 
+</div>
+
+</body>
+</html>

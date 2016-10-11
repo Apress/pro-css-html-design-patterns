@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" > 
+<head><title>Multi-purpose Block Elements</title>
+ <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+ <link rel="stylesheet" href="site.css"   media="all"    type="text/css" />
+ <link rel="stylesheet" href="page.css"   media="all"    type="text/css" />
+ <link rel="stylesheet" href="print.css"  media="print"  type="text/css" />
+ <!--[if lte IE 6]>
+ <link rel="stylesheet" href="ie6.css"    media="all"    type="text/css" />
+ <![endif]-->
+</head>
+
+<body>
+
+<noscript>Show this text when script cannot run.</noscript>
+
+<div>
+ <div> 
+  <h1>Multi-purpose Block Elements</h1>
+ </div>
+</div>
+
+<!-- The following code is invalid HTML and broken structure. -->
+<ol>
+  This content is inside a list but is not inside a list item like it should be. 
+  <li> This content is properly nested in a list item. </li>
+  This content outside a list item invalidates and destroys the structure of a list.
+</ol>
+
+<!-- The following code is _valid_ HTML due to a loophole in HTML’s DTD, 
+     but is still broken structure. -->
+<div>
+  Compare the mixed content in this division with that of the preceding list.
+  <div> This content is inside a nested structural division. </div>
+  This <em>mixed content</em> is not invalid, but it destroys the block structure 
+  and requires a browser to create <em>anonymous blocks</em> in which to render it.
+</div>
+
+<!-- The following form contains blocks, which in turn contain controls. -->
+<form id="form1" method="post" action="http://www.tipjar.com/cgi-bin/test" >
+ <ul>
+  <li> <input type="checkbox" id="xbox1" name="xbox1" value="xbox1" />
+       <label for="xbox1">Checkbox1</label></li>
+  <li> <input type="submit" id="submit1" name="submit1" value="Submit" /> </li>
+ </ul>
+</form>
+ 
+</body>
+</html>

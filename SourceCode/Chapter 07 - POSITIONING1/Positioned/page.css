@@ -1,0 +1,14 @@
+div,p,em { margin:10px; padding:10px; background-color:white;
+           border-left:1px solid gray; border-right:2px solid black; 
+           border-top:1px solid gray; border-bottom:2px solid black; }
+
+*.static  { position:static;   }
+*.relative{ position:relative; left:auto; top:auto; bottom:auto; right:auto; }
+*.absolute{ position:absolute; left:35%; top:-40px; }
+*.fixed1  { position:fixed; z-index:20; right:5px; bottom:35px;  }
+*.fixed2  { position:fixed; z-index:10; right:0px; bottom:0; 
+            width:100px; margin:0;}
+
+*.offset { bottom:-15px; left:-20px; }
+
+#canvas   { background-color:gold; }

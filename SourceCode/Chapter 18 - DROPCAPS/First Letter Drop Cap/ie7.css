@@ -1,0 +1,8 @@
+/* Internet Explorer 7 has a bug that sometimes positions the background image  
+   at different offset than it should. The rules below compensate. 
+   Internet Explorer 7's bug positions background images differently than 
+   Internet Explorer 6's bug. */
+
+*.dropcap3:first-letter {  background-position:0px -22px; }
+
+

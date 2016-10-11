@@ -1,0 +1,21 @@
+/* Non-essential styles */
+div,p, span { margin:10px; padding:5px; background-color:yellow;
+             border-left:1px solid gray; border-right:2px solid black; 
+             border-top:1px solid gray; border-bottom:2px solid black; }
+p  { background-color:white; }
+h2 { font-size:1.1em; margin:0; }
+*.section { position:relative; background-color:gold; }
+
+
+/* Essential Styles */
+
+*.centered { width:380px; margin-left:auto; margin-right:auto; }
+*.static   { position:static;                                  }
+*.absolute { position:absolute;  top:20px;     left:215px;     }
+*.fixed    { position:fixed;     bottom:20px;  right:5px;      }
+*.relative { position:relative;  top:20px;     left:30px;      }
+*.float    { float:right;                                      }
+
+
+
+

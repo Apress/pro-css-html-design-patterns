@@ -1,0 +1,12 @@
+body  { color:black;  background-color:white; }
+h1    { background:none; }
+
+h1, h2, h3, h4, h5, *.section, #content  
+{ color:black; background-color:white;  }
+
+a:link, a:visited, a:hover, a:active, 
+h1 a:link,  h1 a:visited, h1 a:active, h1 a:hover,
+h2 a:link,  h2 a:visited, h2 a:active, h2 a:hover,
+h5 a:link,  h5 a:visited, h5 a:active, h5 a:hover  { color:black; }
+
+#content { background:none; }

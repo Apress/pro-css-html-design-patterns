@@ -1,0 +1,12 @@
+
+*.floating-dropcap1 { float:left; position:relative; top:-0.25em; 
+                     margin-left:-3px; margin-right:3px; margin-bottom:-0.6em; 
+                     font-size:80px; line-height:normal; font-weight:bold;  }
+
+*.floating-dropcap2 { float:left; position:relative; top:-0.35em; 
+                margin-left:20px; margin-right:5px; margin-bottom:-0.7em; 
+                font-size:80px; line-height:normal; font-weight:bold;  
+                color:white; background-color:black; padding:0 20px;  
+                background-image:url("marble.jpg"); 
+                border-left: 2px groove black; border-top:   2px groove black;
+                border-right:2px ridge  black; border-bottom:2px ridge  black; }

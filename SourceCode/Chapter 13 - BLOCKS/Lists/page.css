@@ -1,0 +1,26 @@
+/* Non-essential Styles */
+h2   { font-size:1.1em; font-style:italic; margin:0; margin-bottom:5px; }
+p,ul { margin:0; }
+
+#section1 { width:360px; }
+#section2 { margin-left:60px; width:225px; }
+#section1,
+#section2 { float:left; padding:5px; background-color:gold;
+            border-left:1px solid black; border-right:2px solid black; 
+            border-top:1px solid black; border-bottom:2px solid black; }  
+
+
+/* Essential Styles */
+
+ul        { margin-left:0; padding-left:0; } /* Normalized list */
+ul li     { margin-left:60px; }
+
+*.listed  { margin-left:60px; display:list-item; list-style:square; }
+
+*.list    { margin-left:60px; }
+*.marker  { float:left; margin-left:-60px; width:60px; text-align:center; }
+
+*.custom  { list-style-image:url("check.gif"); }
+*.circle  { list-style-type:circle;      }   *.decimal { list-style-type:decimal; }
+*.inside  { list-style-position:inside;  }   *.none    { list-style-type:none;    }
+

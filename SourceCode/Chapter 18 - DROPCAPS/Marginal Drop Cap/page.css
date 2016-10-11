@@ -1,0 +1,5 @@
+*.indent            { position:relative; margin-left:72px; margin-top:20px; }
+
+*.marginal-dropcap  { position:absolute; left:-77px; top:-16px;
+                      font-size:80px; font-weight:bold;
+                      color:black; background-color:white; }

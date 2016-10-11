@@ -1,0 +1,28 @@
+*.box  { display:static;
+         overflow:visible;
+         visibility:visible; 
+         width:160px;
+         height:150px; 
+         padding:30px; 
+         border-top: 30px solid gray; border-bottom:30px solid black; 
+         border-left:30px solid gray; border-right: 30px solid black; 
+         margin-left:230px; margin-top:80px; 
+         background-color:gold; }
+
+
+
+/* ------------------------------------------------ 
+      Code for styling labels and extra borders 
+   ------------------------------------------------ */ 
+*.label { position:absolute; font-style:italic; font-size:16px; text-align:center; }
+*.white { color:white; }
+
+#outer     { left:180px; top:70px;  }
+#margin    { left:210px; top:100px; }
+#border    { left:240px; top:130px; }
+#padding   { left:270px; top:160px; }
+#inner     { left:300px; top:190px; }
+#content   { left:290px; top:185px; width:160px; height:150px;
+             border:1px dotted gray; font-style:normal;  }
+#outer-box { left:200px; top:93px; width:340px; height:330px; 
+             position:absolute; border:1px dotted gray;  }

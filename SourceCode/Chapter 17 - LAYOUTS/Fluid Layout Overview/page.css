@@ -1,0 +1,15 @@
+/* Non-essential Styles */
+h2    { margin:0; font-size:1.1em; text-align:left; }
+
+
+/* Essential Styles */
+body  { max-width:1000px; margin-left:auto; margin-right:auto; }
+
+div   { background-color:gold; margin-right:10px; padding:5px; 
+        border-left:1px solid gray; border-right:2px solid black; 
+        border-top:1px solid gray; border-bottom:2px solid black; }
+
+#nav  { float:left; width:20%; min-width:170px; }
+#main { float:left; width:40%; min-width:170px; }
+#news { float:left; width:20%; min-width:170px; }
+

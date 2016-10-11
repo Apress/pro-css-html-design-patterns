@@ -1,0 +1,7 @@
+/* Internet Explorer 6 has a bug that sometimes does not render a floated element.
+   You can often fix the bug by setting the element to zoom:1;
+*/
+
+div { zoom:1; }
+
+

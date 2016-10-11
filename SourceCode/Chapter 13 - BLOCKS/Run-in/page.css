@@ -1,0 +1,8 @@
+*.section  { padding:10px; margin-bottom:20px; background-color:gold; 
+             border-left:1px solid gray; border-right:2px solid black; 
+             border-top:1px solid gray; border-bottom:2px solid black;}
+*.indent   { margin-left:20px; border-left:4px solid black; padding-left:20px; }
+
+*.run-in              { display:inline; }
+*.run-in-container h2 { padding-right:20px; }
+*.run-in-container p  { font-style:italic; }

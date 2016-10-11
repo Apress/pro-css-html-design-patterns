@@ -1,0 +1,21 @@
+/* Non-essential Styles */ 
+div   { float:left; clear:both; width:200px; }
+h2    { float:left; clear:both; width:450px; }
+
+td,th { padding:2px; text-align:center; background-color:gold; width:50px; font-weight:normal; }
+
+
+/* Essential Styles */
+
+table, td, th { border:1px solid black; }
+
+*.separated { border-collapse:separate; }  
+*.collapsed { border-collapse:collapse; }
+*.x { display:none;  }
+*.h { visibility:hidden; }
+*.m { color:white; background-color:white; }
+
+*.hidden, *.hidden td, *.hidden th { visibility:hidden; border:none; }
+
+
+

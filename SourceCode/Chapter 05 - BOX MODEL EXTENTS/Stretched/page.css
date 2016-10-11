@@ -1,0 +1,24 @@
+*.gp     { height:340px; position:relative; z-index:10; border:2px solid black;    }
+*.parent { height:280px; margin:10px 20px; padding:10px 0; padding-top:0; border:1px solid black;     }
+*.s {padding:5px; border:5px solid black; background-color:gold; text-align:center;}
+
+#sized  { width:50px;  height:50px;         margin:10px auto;}
+
+#inline { }
+#star   { width:100%;  height:100%; }
+#block  { width:auto;               }
+#table  { width:100%;                       margin:10px 0; }
+
+#abs-v  { height:auto; top:0; bottom:0;     position:absolute;  
+
+          width:120px;
+          left:auto;   margin-left:auto;    right:0;      margin-right:40px;
+          top:0;       margin-top:0;        bottom:0;     margin-bottom:0;    }
+         
+#abs-h  { width:auto;  left:0; right:0;     position:absolute; 
+
+          height:auto; 
+          left:0;      margin-left:0;       right:0;      margin-right:0;
+          top:auto;    margin-top:0;        bottom:auto;  margin-bottom:auto; }
+
+#float { width:100%;   float:left;                        margin-top:50px; }

@@ -1,0 +1,27 @@
+/* Non-essential styles */ 
+
+img { border-left:1px solid gray; border-right:1px none gray; 
+      border-top:1px solid gray;  border-bottom:1px solid black; }
+
+*.overlay { padding:2px 25px; color:black;
+              border-left:1px solid silver; border-right:1px solid gray; 
+              border-top:1px solid silver;  border-bottom:1px solid gray; }
+p { padding:2px 15px;}
+
+#nw           { position:relative; float:left; }
+  #washington { position:absolute; top:35px;  left:58px;   }
+  #oregon     { position:absolute; top:120px; left:62px;  }
+  #idaho      { position:absolute; top:145px; left:190px;  }
+
+#note1 { position:absolute; bottom:1px; left:0; width:406px; color:black; text-align:center; }
+
+
+
+
+/* Essential styles */ 
+
+*.overlay { background:url("semi-transparent.png") repeat; }
+
+#note1    { background:url("trans2white.png") top left repeat-x; }
+
+

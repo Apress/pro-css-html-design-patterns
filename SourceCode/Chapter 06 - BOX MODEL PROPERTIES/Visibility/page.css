@@ -1,0 +1,9 @@
+span { padding:4px; background-color:white;
+       border-left:1px solid gray; border-right:2px solid black; 
+       border-top:1px solid gray; border-bottom:2px solid black; }
+p    { background-color:gold; padding:10px; line-height:1.5em; } 
+
+*.hidden  { visibility:hidden; }
+*.visible { visibility:visible; }
+
+span:hover { visibility:hidden; }

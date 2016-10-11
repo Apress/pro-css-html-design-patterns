@@ -1,0 +1,8 @@
+*.section    { padding:10px; margin:10px 0; background-color:gold; 
+               border-left:1px solid gray; border-right:2px solid black; 
+               border-top:1px solid gray; border-bottom:2px solid black;}
+*.section p           { margin:0; margin-top:5px;     }
+*.section h2          { margin:0; margin-bottom:10px; }
+*.section h3          { margin:0; margin-bottom:10px; }
+*.section.example     { background-color:white;       }
+*.section  *.section  { margin-bottom:0;              }

@@ -1,0 +1,8 @@
+*.blocked  { display:block; text-indent:2em; margin-top:5px;  }     
+
+address           { border:4px groove green; padding:10px; }
+address *.name    { display:block; }
+address *.address { display:block; }
+address *.area    { display:block; }
+address *.emails  { display:block; }
+

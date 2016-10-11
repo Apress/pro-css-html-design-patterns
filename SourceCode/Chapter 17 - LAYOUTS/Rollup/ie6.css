@@ -1,0 +1,5 @@
+/* Internet Explorer 6 has a bug that sometimes causes it not to render elements. 
+   This can often be fixed using zoom:1; */
+
+h2 { zoom:1; }
+

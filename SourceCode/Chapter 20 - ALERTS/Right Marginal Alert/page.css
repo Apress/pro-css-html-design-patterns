@@ -1,0 +1,15 @@
+*.main      { position:relative; padding-right:400px; }
+
+*.alert     { position:absolute; width:350px; right:0; height:190px;
+              border-top:1px solid black; border-bottom:1px solid black; }
+
+*.alert h3  { position:absolute; left:0;    top:15px; margin:0;
+              font-size:1.3em; text-transform:uppercase; }
+
+*.alert p   { position:absolute; left:80px; top:15px; margin:0;}
+
+*.alert.tip { color:green; 
+              border-top:4px groove green; border-bottom:4px ridge green;}
+
+*.alert *.decoration { border-left:15px solid gold; margin-right:-11px; 
+                       font-size:0.7em; vertical-align:2px; }

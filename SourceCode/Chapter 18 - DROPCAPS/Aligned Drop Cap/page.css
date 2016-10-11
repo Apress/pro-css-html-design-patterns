@@ -1,0 +1,11 @@
+*.aligned-dropcap1 { font-size:40px; line-height:normal; font-weight:bold;
+  vertical-align:baseline; }
+
+*.aligned-dropcap2 { font-size:40px; line-height:0.8em; font-weight:bold;
+  vertical-align:middle; background-color:gold; padding:0 2px; }
+
+*.aligned-dropcap3 { font-size:40px; line-height:normal; font-weight:bold;
+  font-style:italic; vertical-align:-0.45em; color:white;
+  background-color:black; background-image:url("marble.jpg");
+  padding:0 4px; border:1px solid black; }
+

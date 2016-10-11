@@ -1,0 +1,7 @@
+/* Internet Explorer 6 cannot vertically stretch absolute elements using
+   top and bottom, so I stretched it using height:100%.
+*/
+
+*.absolute-stretched {height:100%; }
+
+

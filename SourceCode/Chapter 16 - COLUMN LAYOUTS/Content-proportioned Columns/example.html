@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" > 
+<head><title>Content-proportioned Columns</title>
+ <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+ <link rel="stylesheet" href="site.css"   media="all"    type="text/css" />
+ <link rel="stylesheet" href="page.css"   media="all"    type="text/css" />
+ <link rel="stylesheet" href="print.css"  media="print"  type="text/css" />
+ <!--[if lte IE 6]>
+ <link rel="stylesheet" href="ie6.css"    media="all"    type="text/css" />
+ <![endif]-->
+</head>
+
+<body>
+
+<h1>Content-proportioned Columns</h1>
+
+<h2>Sized Table</h2>
+<table class="auto-layout sized"> 
+ <tr> <td class="auto-width">auto</td> 
+      <td class="auto-width">auto (more content - more width)</td></tr></table> 
+
+<h2>Stretched Table</h2>
+<table class="auto-layout stretched"> 
+ <tr> <td class="auto-width">auto (same content - same width)</td> 
+      <td class="auto-width">auto (same content - same width)</td></tr></table>
+
+<h2>Shrinkwrapped Table</h2>
+<table class="auto-layout shrinkwrapped"> 
+ <tr> <td class="auto-width">auto (less content - less width)</td> 
+      <td class="auto-width">auto (extra content turns shrinkwrapped columns 
+                             into content-proportioned columns)</td></tr></table>
+       
+</body>
+</html>

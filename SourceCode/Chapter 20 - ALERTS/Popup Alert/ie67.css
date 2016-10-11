@@ -1,0 +1,9 @@
+/* The z-index must sometimes be explicitly set in Internet Explorer 6 and 7 
+   to ensure positioned elements are positioned the way you want them. */
+   
+#pt1 { z-index:3; }
+#pt2 { z-index:2; }
+#pt3 { z-index:1; }
+
+
+

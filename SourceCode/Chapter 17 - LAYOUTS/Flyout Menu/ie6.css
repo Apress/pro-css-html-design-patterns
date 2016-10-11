@@ -1,0 +1,7 @@
+/* Internet Explorer 6 does not support the child operator 
+   so I used these styles to compensate. */
+
+*.menu li.flyout-trigger.hover { background:none firebrick; }
+
+*.menu li.hover a  { color:black; }
+*.menu li.hover    { background-color:gold; color:black; }

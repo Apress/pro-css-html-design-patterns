@@ -1,0 +1,11 @@
+div,span { border-left:1px solid gray; border-right:2px solid black; 
+           border-top:1px solid gray; border-bottom:2px solid black;    }
+div  { background-color:gold;  padding:5px;     margin:0px 20px;        }
+span { background-color:white; padding:6px 4px; line-height:40px;       }
+em   { background-color:white; padding:1px 4px; border:2px solid black; }
+*.center { text-align:center;  }
+
+*.moved-left  { margin-left:-26px; }   *.push-right { margin-right:50px;   }
+*.moved-right { margin-left:50px;  }   *.pull-left  { margin-right:-20px;  }
+*.moved-down  { margin-top:20px;   }   *.push-down  { margin-bottom:20px;  }
+*.moved-up    { margin-top:-13px;  }   *.pull-up    { margin-bottom:-16px; }

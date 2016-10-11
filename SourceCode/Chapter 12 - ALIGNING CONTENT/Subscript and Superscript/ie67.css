@@ -1,0 +1,8 @@
+/* Internet Explorer 6 uses different default font sizes 
+   for superscript and subscript. This requires their size to be adjusted to match
+   the other major browsers. */
+
+sub { font-size:0.9em; }
+sup { font-size:0.9em; }
+
+

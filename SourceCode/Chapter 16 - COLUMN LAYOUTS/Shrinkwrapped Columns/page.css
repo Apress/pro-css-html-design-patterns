@@ -1,0 +1,11 @@
+/* Non-essential Styles */
+table  { background:gold; }
+td     { border:2px solid black; padding-left:3px;  }
+
+
+/* Essential Styles */
+table  { border-collapse:collapse;   }
+td     { overflow:hidden;            }
+
+*.auto-layout  { table-layout:auto;  }
+*.shrinkwrap   { width:auto;         }

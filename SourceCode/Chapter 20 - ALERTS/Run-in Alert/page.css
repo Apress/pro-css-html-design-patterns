@@ -1,0 +1,14 @@
+*.alert              { padding-right:20px; padding-top:10px; padding-bottom:10px;
+                       border-top:1px solid black; border-bottom:1px solid black;
+                       margin:40px; }
+
+*.alert h3           { display:inline; font-size:1.3em; text-transform:uppercase; }
+
+*.alert p            { display:inline;  margin-left:10px; letter-spacing:-0.8px }
+
+*.alert.caution      { color:red; 
+                       border-top:3px double red; border-bottom:3px double red;}
+
+*.alert *.decoration { border-left:15px solid gold; margin-right:-11px; 
+                       font-size:0.7em; vertical-align:2px; }
+                       

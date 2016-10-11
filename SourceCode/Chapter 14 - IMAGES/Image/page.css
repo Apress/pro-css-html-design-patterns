@@ -1,0 +1,12 @@
+/* Non-essential styles */ 
+
+*.porthole { float:left; position:relative; width:24%; height:150px; 
+             overflow:hidden; text-align:center; color:white; background-color:black; 
+             border-left:1px solid gray; border-right:2px solid black; 
+             border-top:1px solid gray; border-bottom:2px solid black; }
+
+*.porthole img { position:absolute; left:-230px; top:-30px; z-index:-1; }
+
+
+/* Essential styles */ 
+img { display:block; width:auto; height:auto; }

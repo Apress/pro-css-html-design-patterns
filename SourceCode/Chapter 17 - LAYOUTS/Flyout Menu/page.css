@@ -1,0 +1,43 @@
+/* Non-essential Styles */
+h3 { font-size:1.1em; }
+h4 { font-size:1em; font-weight:normal; }
+p  { margin:0; margin-top:5px; }
+
+*.float-divider  { clear:both; height:1px; font-size:1px; line-height:1px; }
+
+/* Essential Styles */
+
+*.menu      { float:left; position:relative; z-index:1; cursor:pointer; 
+              font-size:0.8em; white-space:nowrap; }
+
+*.menu a    { text-decoration:none; color:black; }
+
+*.menu h3   { float:left; margin:0; padding:1px 5px;  
+              background:url("g1.jpg") repeat-x left bottom white; }
+*.menu h4   { display:inline; margin:0; }
+
+*.menu ul   { position:absolute; margin:0; padding:0; padding-bottom:5px; 
+              background:url("g3.jpg") repeat-x left bottom white;  }
+
+*.menu li   { margin:0; padding:2px 25px; list-style-type:none; color:black; }
+*.menu li img       { margin-left:-22px; padding-right:5px; }
+*.menu li.separator { margin-top:5px; border-top:1px solid gray; padding-top:5px; }
+*.menu li.flyout-trigger { background:url("flyout1.gif") no-repeat right center; }
+
+*.menu h3.hover      { background:url("g2.jpg") repeat-x left top white; }
+*.menu li.hover      { background-color:firebrick; color:white; }
+
+*.menu ul.dropdown   { top:100%;  clear:left; }
+*.menu ul.submenu    { left:100%; margin-top:-1.5em; margin-left:-0.3em; }
+
+*.menu *.hidden      { left:-99999px; top:-99999px; }
+
+*.menu h3,*.menu ul { border-left:1px solid yellow; border-right:1px solid orange; 
+                      border-top:1px solid yellow; border-bottom:1px solid orange; }
+
+
+/* Essential styles that do not work properly in Internet Explorer 6. */
+*.menu li.flyout-trigger.hover 
+            { background:url("flyout2.gif") no-repeat right center firebrick; }
+
+*.menu li.hover > a  { color:white; }

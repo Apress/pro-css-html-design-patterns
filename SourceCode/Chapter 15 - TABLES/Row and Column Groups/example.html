@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" > 
+ <head><title>Row and Column Groups</title>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" href="site.css"   media="all"    type="text/css" />
+  <link rel="stylesheet" href="page.css"   media="all"    type="text/css" />
+  <link rel="stylesheet" href="print.css"  media="print"  type="text/css" />
+  <!--[if lte IE 6]>
+  <link rel="stylesheet" href="ie6.css"    media="all"    type="text/css" />
+  <![endif]-->
+ </head>
+ 
+ <body>
+ 
+<h1>Row and Column Groups</h1>
+
+<h2>Row Groups</h2>
+<table class="example1" > 
+ <thead> <tr> <th>thead</th> <th>2 </th> <th>3 </th> <th>4 </th> </tr> </thead>
+ <tfoot> <tr> <th>tfoot</th> <td>10</td> <td>11</td> <td>12</td> </tr> </tfoot>
+ <tbody> <tr> <th>tbody</th> <td>6 </td> <td>7 </td> <td>8 </td> </tr> </tbody>
+</table>
+
+<h2>Columns</h2>
+<table class="example2"> 
+ <colgroup><col class="col1" /><col class="col2" /><col class="col3" /> 
+           <col class="col4" /><col class="col5" /><col class="col6" /></colgroup>
+
+ <tr> <td rowspan="2">1</td> <td colspan="2">2-3</td>               </tr> 
+ <tr> <td>8</td> <td>9</td>  <td> </td> <td>&nbsp;</td> <td>12</td> </tr>
+</table>
+ 
+  
+</body>
+</html>

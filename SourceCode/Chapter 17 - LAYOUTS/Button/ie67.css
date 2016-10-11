@@ -1,0 +1,8 @@
+/* Internet Explorer 6 and 7 use different default settings for buttons. 
+   This stylesheet normalizes the results for this example. */
+
+button.button  { margin:0 6px; }
+*.button       { padding:3px 0; }
+a.button       { vertical-align:0.35em; }
+
+

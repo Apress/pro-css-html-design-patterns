@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" > 
+<head><title>Column Width</title>
+ <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+ <link rel="stylesheet" href="site.css"   media="all"    type="text/css" />
+ <link rel="stylesheet" href="page.css"   media="all"    type="text/css" />
+ <link rel="stylesheet" href="print.css"  media="print"  type="text/css" />
+ <!--[if lte IE 6]>
+ <link rel="stylesheet" href="ie6.css"    media="all"    type="text/css" />
+ <![endif]-->
+</head>
+
+<body>
+
+<h1>Column Width</h1>
+<h2>Percentage widths trump fixed widths, which trump auto widths.</h2>
+
+<table class="auto-layout sized">
+ <tr> <td class="a i">auto</td><td class="a">auto</td>   <td class="a">auto</td> 
+      <td class="a">auto</td>  <td class="a">auto</td></tr>
+ <tr> <td class="a">auto</td>  <td class="b i">75px</td> <td class="b">75px</td> 
+      <td class="b">75px</td>  <td class="b">75px</td></tr>
+ <tr> <td class="a">auto</td>  <td class="a">auto</td>   <td class="c i">150px</td> 
+      <td class="c">150px</td> <td class="c">150px</td></tr>
+ <tr> <td class="a">auto</td>  <td class="a">auto</td>   <td class="a">auto</td> 
+      <td class="d i">10%</td> <td class="d">10%</td></tr>
+ <tr> <td class="a">auto</td>  <td class="a">auto</td>   <td class="a">auto</td> 
+      <td class="a">auto</td>  <td class="e i">50%</td></tr>
+</table>
+
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+sup   { font-size:0.7em; vertical-align:0.5em; }
+body  { margin:0px; padding:0; color:white;       
+        background-color:#FDBA29; 
+        font-family:verdana,arial,sans-serif; font-size:16px; }
+h1    { margin:0; padding-left:20px; padding-top:10px; padding-bottom:20px; font-size:40px; 
+        color:#FDBA29; background:black url("logo.jpg") no-repeat top right; }
+a        { text-decoration:none;  }
+
+h2    { margin:0; padding-left:20px; padding-bottom:30px; font-size:22px; color:white; background-color:black}
+h3    { margin:0; margin-top:0px;    margin-bottom:15px; font-size:30px; color:black;}
+h4    { margin:0; margin-top:10px;   margin-bottom:7px; font-size:20px;  }
+h5    { position:absolute; top:140px; right:5px; margin:0; padding-left:20px; font-size:18px; color:white; background-color:black}
+ul    { margin:0; padding-left:20px; margin-bottom:20px; }
+li    { margin-top:5px; margin-bottom:0px; margin-left:0; padding-left:10px; }
+
+a:link { color:black; }      a:visited { color:firebrick; }  a:hover    { color:white;   }  a:active { color:black; }
+h1 a:link,  h1 a:visited, h1 a:active  { color:#FDBA29;   }  h1 a:hover { color:white;   }
+h2 a:link,  h2 a:visited, h2 a:active  { color:white;     }  h2 a:hover { color:#FDBA29; }
+h5 a:link,  h5 a:visited, h5 a:active  { color:#FDBA29;   }  h5 a:hover { color:white;   }
+#footer a:link,  #footer a:visited, #footer a:active  { color:firebrick; }  #footer a:hover { color:white; }
+#footer span { margin:0 10px; }
+
+*.section { float:left; padding-right:60px; color:black; }
+*.small-caps { font-variant:small-caps }
+
+*.float-divider { clear:both; display:block; 
+                  height:1px; font-size:1px; line-height:1px; }
+            
+#logo    { position:absolute; top:0; right:0; }
+#content { padding:20px; height:200px;
+           background:#FDBA29 url("corner.jpg") no-repeat top right; }
+
+#footer  { position:static; width:auto; float:left; clear:both; 
+           margin-top:20px; margin-left:20px; padding:10px; 
+           border-top:1px solid firebrick; color:firebrick; }

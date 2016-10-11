@@ -1,0 +1,9 @@
+*.padded-dropcap1 { padding-left:40%; font-size:80px; line-height:normal; 
+                    font-weight:bold; vertical-align:middle; 
+                    background:url("rose.jpg") no-repeat -65px 0 white;  }
+
+*.padded-dropcap2 { padding-left:275px; padding-right:10px; float:left; 
+                    position:relative; top:-0.25em; margin-bottom:-0.2em; 
+                    margin-left:-3px; margin-right:3px; color:black;
+                    background:url("grabber.jpg") no-repeat 5px 20px white;
+                    font-size:84px; line-height:normal; font-weight:bold;  }

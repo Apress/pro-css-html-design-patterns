@@ -1,0 +1,11 @@
+table          { border-collapse:collapse; 
+                 border-left:1px solid gray; border-right:2px solid black; 
+                 border-top:1px solid gray; border-bottom:2px solid black;  }
+
+td             { padding-left:10px; background-color:gold; 
+                 border:1px solid black; }
+
+*.align-top    { height:200px; vertical-align:top;    }
+*.align-middle { height:200px; vertical-align:middle; }
+*.align-bottom { height:200px; vertical-align:bottom; }
+

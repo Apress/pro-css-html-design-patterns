@@ -1,0 +1,12 @@
+h2 { font-size:16px; margin:5px 0; }
+*.gp       { position:relative; z-index:10; height:225px; border:2px solid black; }
+*.parent   { margin:10px; padding:10px; padding-top:0; border:1px solid black;    }
+*.border   { padding:5px;  background-color:gold; text-align:center; 
+             border-left:1px solid gray; border-right:2px solid black; 
+             border-top:1px solid gray; border-bottom:2px solid black;           }
+
+#absolute  { position:absolute; height:auto; width:140px; }
+
+#fixed     { position:fixed; 
+             height:50px;  margin-top:10px; 
+             width:auto;  margin-left:10px; }    

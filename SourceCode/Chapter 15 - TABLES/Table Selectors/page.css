@@ -1,0 +1,19 @@
+/* Non-essential Styles */ 
+td,th { padding:2px; text-align:center; width:75px; }
+
+/* Essential Styles */
+
+table,td,th { border:1px solid black;      }   /* Selecting all tables and cells */
+td,th       { background-color:white;      }   /* Selecting all cells            */
+
+#t1           { border-collapse:collapse;  }        /* Selecting table           */
+#t1 thead td  { font-weight:bold;          }        /* Selecting cells in head   */
+#t1 tfoot td  { font-style:italic;         }        /* Selecting cells in foot   */
+#t1 tbody td  { font-variant:small-caps;   }        /* Selecting cells in body   */
+#t1 *.b1  td  { font-size:1.2em;           }        /* Selecting cells in body   */
+#t1 *.c3      { display:none; }                     /* Selecting cells in column */
+#t1 *.c4      { background-color:firebrick; color:white; } 
+#t1 *.r1      { background-color:gold; color:black;  } /* Selecting row-no effect*/
+#t1 *.r2 td   { background-color:gold; color:black;  } /* Selecting cells in row */
+#t1 *.r2 *.c6 { font-size:1.8em; font-weight:bold;   } /* Selecting cell         */
+

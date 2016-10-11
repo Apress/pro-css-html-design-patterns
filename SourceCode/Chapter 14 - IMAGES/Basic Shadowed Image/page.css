@@ -1,0 +1,5 @@
+img.shadowed    { padding-right:20px; 
+                  padding-bottom:20px; 
+                  background-image:url("shadow.jpg"); 
+                  background-position:right bottom; 
+                  background-repeat:no-repeat; }

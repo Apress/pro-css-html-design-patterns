@@ -1,0 +1,7 @@
+p                 { padding:10px 0; padding-right:10px; background-color:gold; 
+                    border-left:1px solid gray; border-right:2px solid black; 
+                    border-top:1px solid gray; border-bottom:2px solid black;  }
+
+*.hanging-indent  { text-indent:-50px; padding-left:50px; }
+*.hanging-indent2 { text-indent:-50px; padding-left:70px; }
+  

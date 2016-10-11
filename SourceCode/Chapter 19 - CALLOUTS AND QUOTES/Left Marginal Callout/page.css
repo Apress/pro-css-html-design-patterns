@@ -1,0 +1,8 @@
+*.left-marginal { position:relative; width:470px; margin-left:230px;  }
+
+*.callout       { position:absolute; left:-200px; width:160px; margin-top:5px; 
+                  line-height:normal; text-align:center; padding:5px 0;
+                  font-size:22px; font-weight:bold;   
+                  color:black; background-color:gold; 
+                  border-left:1px solid black; border-right:1px solid black; 
+                  border-top:6px solid black; border-bottom:6px solid black; }

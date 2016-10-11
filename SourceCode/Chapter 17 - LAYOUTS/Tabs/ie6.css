@@ -1,0 +1,8 @@
+/* Internet Explorer 6 has a rounding error bug that sometimes causes it to 
+   miscalculate the width of items. By simply changing the width of the parent
+   by a pixel or two, you can fix the problem in Internet Explorer. */
+   
+body { width:700px; }
+ul.tabs *.tab-content { width:700px;  } 
+
+

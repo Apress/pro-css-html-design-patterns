@@ -1,0 +1,22 @@
+/* Non-essential Styles */ 
+
+td,th       { width:75px; padding:2px; text-align:center; background-color:gold; }
+table,td,th { border:1px solid black;   }
+
+#t1      { border-collapse:collapse; margin-right:120px; }
+#t1, #t2 { float:left; }
+
+/* Essential Styles */
+
+#t1 *.c2 { display:none;      }  /* Removing column    */
+#t1 *.c3 { visibility:hidden; }  /* Hiding   column    */
+#t1 *.r2 { visibility:hidden; }  /* Hiding   row       */
+#t1 *.b2 { display:none;      }  /* Removing row group */
+
+
+#t2 *.c2 { display:none;      }  /* Removing column    */
+#t2 *.c3 { visibility:hidden; }  /* Hiding   column    */
+#t2 *.r2 { visibility:hidden; }  /* Hiding   row       */
+#t2 *.b2 { display:none;      }  /* Removing row group */
+
+

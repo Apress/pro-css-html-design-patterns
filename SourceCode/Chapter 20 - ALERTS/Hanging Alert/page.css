@@ -1,0 +1,17 @@
+*.alert            { padding-right:20px; padding-top:10px; padding-bottom:10px;
+                     border-top:1px solid black; border-bottom:1px solid black;
+                     margin:40px; }
+
+*.alert         h3 { display:inline; font-size:1.3em; text-transform:uppercase;  }
+
+*.alert.tip        { text-indent:-80px;   padding-left:80px; }
+*.alert.tip     p  { display:inline;      margin-left:18px; }
+
+*.alert.note       { text-indent:-110px;  padding-left:110px; }
+*.alert.note    p  { display:inline;      margin-left:20px; }
+
+*.alert.caution    { text-indent:-160px;  padding-left:160px; }
+*.alert.caution p  { display:inline;      margin-left:20px; }
+
+*.alert *.decoration   { border-left:15px solid gold; margin-right:-10px; 
+                         font-size:0.7em; vertical-align:2px; }

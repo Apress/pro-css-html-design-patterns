@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" > 
+<head><title>Sized Columns</title>
+ <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+ <link rel="stylesheet" href="site.css"   media="all"    type="text/css" />
+ <link rel="stylesheet" href="page.css"   media="all"    type="text/css" />
+ <link rel="stylesheet" href="print.css"  media="print"  type="text/css" />
+ <!--[if lte IE 6]>
+ <link rel="stylesheet" href="ie6.css"    media="all"    type="text/css" />
+ <![endif]-->
+</head>
+
+<body>
+
+<h1>Sized Columns</h1>
+
+<h2>Shrinkwrapped Table</h2>
+<table class="auto-layout shrinkwrapped"> 
+  <tr> <td class="sized1">200px</td> <td class="sized2">300px</td></tr></table> 
+
+<h2>Fixed Table</h2>
+<table class="fixed-layout min-width1"> 
+  <tr> <td class="sized1">200px</td> <td class="sized2">300px</td></tr></table>
+
+<h2>Maximum-width Sized Columns</h2>
+<div class="sized2">  <table class="auto-layout shrinkwrapped"> 
+    <tr> <td class="sized1">200px</td> 
+         <td class="sized2">300px</td></tr></table> </div>
+
+<h2>Minimum-width Sized Columns</h2>
+<table class="fixed-layout min-width2"> 
+  <tr> <td class="sized1">200px</td> <td class="sized2">300px</td></tr></table>
+
+</body>
+</html>

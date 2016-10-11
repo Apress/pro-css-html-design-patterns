@@ -1,0 +1,13 @@
+*.gp     { height:225px; position:relative; z-index:10; border:2px solid black; }
+*.parent { margin:10px; padding:10px; padding-top:0; border:1px solid black;    }
+*.z {padding:5px; border:5px solid black; background-color:gold; text-align:center;}
+
+#float  { width:150px;  height:50px;  float:right;        }
+#static { width:150px;  height:50px;  margin-bottom:10px; }
+#table  { width:150px;  height:50px;  margin-bottom:10px; }
+#abs    { width:150px;  height:50px; 
+          position:absolute;
+          left:260px;    margin-left:auto;  right:auto;     margin-right:auto;
+          top:42px;      margin-top:5px;    bottom:auto; margin-bottom:auto; }
+
+#star   { width:26px;   height:26px;  }

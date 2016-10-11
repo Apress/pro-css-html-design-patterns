@@ -1,0 +1,17 @@
+*.hr { display:block; margin:0;  }
+                    
+*.border        { padding-top:1px; margin-top:25px; margin-bottom:0;
+                  width:auto; margin-left:0; margin-right:0; 
+                  border-top:4px ridge blue; border-bottom:4px groove blue; 
+                  background:none; background-color:yellow; }
+
+*.background    { padding-top:5px; margin-top:25px; margin-bottom:0;
+                  width:auto; margin-left:76px; margin-right:76px; 
+                  background:repeat-x left center url("diamond-blue.gif");      
+                  background-color:transparent; }
+
+*.combo         { padding-top:5px; margin-top:25px; margin-bottom:0;
+                  width:400px; margin-left:auto; margin-right:auto;
+                  border-top:4px ridge blue; border-bottom:4px groove blue;  
+                  background:repeat-x left center url("diamond-blue.gif");   
+                  background-color:white; }

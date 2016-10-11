@@ -1,0 +1,16 @@
+/* Non-essential Styles */
+h2    { margin:0; font-size:1.1em; text-align:left; }
+h3    { margin:0; font-size:1em; }
+
+
+/* Essential Styles */
+
+*.oi       { background-color:gold;
+             border-left:1px solid gray; border-right:2px solid black; 
+             border-top:1px solid gray; border-bottom:2px solid black; }
+
+#nav       { float:left; width:25%; min-width:170px; }
+#nav *.oi  { min-height:150px; margin:0; padding:5px; }
+
+#main      { float:left; width:75%; min-width:170px; }
+#main *.oi { min-height:150px; margin-left:80px; padding:5px; padding-left:80px; }

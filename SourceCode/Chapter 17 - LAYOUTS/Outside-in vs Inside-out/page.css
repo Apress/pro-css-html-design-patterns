@@ -1,0 +1,15 @@
+/* Non-essential Styles */
+h2  { clear:both; }
+div { background-color:gold; padding:3px 0;   }
+hr  { clear:both; border:0; padding-top:20px; }
+
+
+/* Essential Styles */
+body  { max-width:1200px; }
+div   { min-width:100px;  }
+
+*.ex1 { float:left; width:50%;                     }
+*.ex2 { float:left; width:50%;   border:1px solid; }
+*.ex3 { float:left; width:45%;   margin-left:5%;   }
+*.ex4 { float:left; width:49.5%; margin-left:5px;  }
+

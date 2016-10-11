@@ -1,0 +1,45 @@
+h2  { margin:0; font-size:1.1em; font-style:italic; background-color:white; width:68px; }
+
+#before    { position:absolute; width:auto; top:50px; left:20px; }
+#after     { position:absolute; width:auto; top:50px; left:370px; }
+*.parent   { position:absolute; height:540px; width:300px;
+             margin-top:5px; background-color:white; 
+             border:2px solid black; repeat-y; }
+
+*.box     { border:1px solid black; background-color:gold;} 
+
+*.spacer  { height:10px; border:none!important; background:none!important; font-size:1px; line-height:1px; }
+*.sized   { width:100px; height:35px; position:absolute; }
+
+
+
+*.before  { padding:0;  } 
+
+*.after  { padding-top:10px;  padding-bottom:0; 
+           padding-left:30px; padding-right:10px;  } 
+
+*.static-inline-shrinkwrapped    { width:auto;  }
+
+*.replaced-inline-shrinkwrapped  { width:auto;  }
+*.replaced-inline-sized          { width:35px;  }
+*.replaced-inline-stretched      { width:100%; height:100%; }
+
+*.static-block-sized             { width:200px; }
+*.static-block-stretched         { width:auto;  }
+
+*.table-shrinkwrapped            { width:auto;  }
+*.table-sized                    { width:200px; }
+*.table-stretched                { width:100%;  }
+
+*.float-shrinkwrapped            { width:auto;  float:left;                  }
+*.float-sized                    { width:200px; float:left;      clear:both; }
+*.float-stretched                { width:100%;  float:left;      clear:both; }
+
+*.absolute-shrinkwrapped   { width:auto;  left:0; right:auto; position:absolute; 
+                                                              top:434px; }
+
+*.absolute-sized           { width:200px; left:0; right:auto; position:absolute; 
+                                                              top:462px; }
+
+*.absolute-stretched       { width:auto;  left:0; right:0;    position:absolute; 
+                                                              top:490px; }

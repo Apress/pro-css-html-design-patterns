@@ -1,0 +1,8 @@
+*.lb-half           { display:block; margin-top:-0.5em; }
+*.lb-single         { display:block; margin-top:0;      }
+*.lb-one-and-a-half { display:block; margin-top:1.5em;  }
+*.lb-double         { display:block; margin-top:2em;    }
+*.lb-quad           { display:block; margin-top:4em;    }
+
+*.br10px             { line-height:10px; }
+*.br3               { line-height:3em; }

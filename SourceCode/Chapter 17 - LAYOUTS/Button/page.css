@@ -1,0 +1,17 @@
+form { margin:20px 0; }
+
+*.button       { margin:0; padding:3px 10px; font-size:1em; color:black; 
+                 cursor:pointer; 
+                 background:url("g1.jpg") repeat-x left bottom; 
+                 border-left:1px solid yellow; border-right:1px solid orange; 
+                 border-top:1px solid yellow; border-bottom:1px solid orange; }  
+
+*.button:hover,*.button.hover { background:url("g2.jpg") repeat-x left top; 
+                 border-left:1px solid orange; border-right:1px solid yellow; 
+                 border-top:1px solid orange; border-bottom:1px solid yellow; }  
+
+a.button       { padding:5px 10px; line-height:2em; text-decoration:none; }
+
+#submit2       { width:32px; height:32px; border:none; cursor:pointer; 
+                 background:url("go.jpg") no-repeat left top; }
+#submit2:hover, #submit2.hover { background-position:1px 1px; }

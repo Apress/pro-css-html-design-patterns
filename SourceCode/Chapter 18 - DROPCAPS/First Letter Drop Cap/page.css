@@ -1,0 +1,11 @@
+*.dropcap1:first-letter { font-size:60px; vertical-align:0px; font-weight:bold; }
+
+*.dropcap2:first-letter { float:left; margin-left:-3px; margin-right:3px; 
+                          position:relative; top:-2000px; /* DOES NOT WORK */
+                          font-size:60px; line-height:normal; font-weight:bold;}
+                 
+*.dropcap3              { padding-left:105px; text-indent:-104px; margin-top:50px; }
+
+*.dropcap3:first-letter { padding:40px 50px; font-size:1px; line-height:1px; 
+                          color:white; background-image:url("f.jpg"); 
+                          background-position:center center; }

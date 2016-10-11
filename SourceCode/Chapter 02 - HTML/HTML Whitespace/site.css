@@ -1,0 +1,5 @@
+body { margin:10px; 
+       font-family:verdana,arial,sans-serif; font-size:medium; }
+h1   { margin:0; margin-bottom:10px; font-size:1.9em;  }
+h2   { margin:20px 0 10px 0; font-size:1.1em; font-weight:normal; font-style:italic; }
+p    { margin:0 0 5px 0; }

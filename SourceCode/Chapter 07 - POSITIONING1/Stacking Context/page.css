@@ -1,0 +1,36 @@
+/*  Essential Rules  */
+*.stacking-context1 { z-index:2; position:absolute; left:10px;  top:70px;  }
+*.stacking-context2 { z-index:0; position:absolute; left:223px; top:120px; }
+
+*.level2 { z-index:-999; position:absolute;  }
+*.level3 { position:static;                  }
+*.level4 { float:left;                       }
+*.level5 { position:static;                  }
+*.level6 { z-index:0; position:relative;     }
+*.level7 { z-index:999; position:absolute;   }
+
+
+
+
+/*  Non-essential Rules  */
+div      { padding:8px; background-color:white; }
+p        { margin:0; }
+span     { padding:5px; background-color:yellow; }
+
+*.box { line-height:1.5em; margin:0; 
+        border-left:1px solid gray; border-right:2px solid black; 
+        border-top:1px solid gray; border-bottom:2px solid black; }
+
+*.clear    { clear:both; margin:0; background-color:transparent; }
+*.caption  { position:absolute; top:25px; width:120px; background-color:transparent; }
+
+*.stacking-context1,
+*.stacking-context2 { width:480px; height:140px; background-color:gold; }
+*.level2 { top:-18px;        left:100px; }
+*.level3 { width:300px;      margin-left:auto; margin-right:10px;  }
+*.level4 { width:130px;      padding:10px; }
+*.level5 { margin-left:10px; padding-bottom:30px;}
+*.level6 { top:-8px;         left:15px; padding-bottom:10px; }
+*.level7 { bottom:18px;      right:10px; }
+
+

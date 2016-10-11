@@ -1,0 +1,18 @@
+/* Non-essential Styles */ 
+table   { width:350px;border-collapse:collapse; border:1px solid black; }
+td, th  { width:50px; text-align:center; padding:2px; border:1px solid black; }
+
+
+/* Essential Styles */
+
+table.example1 thead { background:orange;    color:black; }
+table.example1 tbody { background:gold;      color:black; }
+table.example1 tfoot { background:firebrick; color:white; }
+
+*.col1 { background:wheat;     }
+*.col2 { background:gold;      }
+*.col3 { background:orange;    }
+*.col4 { background:tomato;    }
+*.col5 { background:firebrick; }
+*.col6 { background:black; color:white;  }
+ 

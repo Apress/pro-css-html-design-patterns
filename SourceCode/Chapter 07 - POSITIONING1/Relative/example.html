@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" > 
+<head><title>Relative</title>
+ <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+ <link rel="stylesheet" href="site.css"   media="all"    type="text/css" />
+ <link rel="stylesheet" href="page.css"   media="all"    type="text/css" />
+ <link rel="stylesheet" href="print.css"  media="print"  type="text/css" />
+ <!--[if lte IE 6]>
+ <link rel="stylesheet" href="ie6.css"    media="all"    type="text/css" />
+ <![endif]-->
+</head>
+
+<body>
+
+ <h1>Relative</h1>
+ <div class="relative">Before Relative Positioning
+   <p     class="static"                >Static Block
+    <span class="static ontop"          >Static Inline on top</span></p>
+   <p     class="static ontop"          >Static Block on top</p>
+   <p     class="absolute"              >Absolute</p></div>
+
+ <div class="relative">After Relative Positioning
+   <p     class="relative"              >Relative Block
+    <span class="relative ontop offset" >Relative Inline on top</span></p>
+   <p     class="relative ontop"        >Relative Block on top</p>
+   <p     class="absolute"              >Absolute</p></div>
+ 
+</body>
+</html>

@@ -1,0 +1,10 @@
+*.alert                { white-space:nowrap; line-height:2.3em;
+                         margin:0 20px; padding:8px 20px 5px 20px; 
+                         border-top:1px solid black; border-bottom:1px solid black;
+                         background-color:gold; }
+
+*.alert     *.heading  { font-weight:bold; font-size:1.3em; }
+
+*.alert     *.content  { letter-spacing:1.5px; font-style:normal; }
+                         
+*.alert.tip *.heading  { text-transform:uppercase;  }

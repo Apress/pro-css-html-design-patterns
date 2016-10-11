@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" > 
+ <head><title>CSS Sprite</title>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" href="site.css"   media="all"    type="text/css" />
+  <link rel="stylesheet" href="page.css"   media="all"    type="text/css" />
+  <link rel="stylesheet" href="print.css"  media="print"  type="text/css" />
+  <!--[if lte IE 6]>
+  <link rel="stylesheet" href="ie6.css"    media="all"    type="text/css" />
+  <![endif]-->
+ </head>
+ 
+ <body>
+ 
+<h1>CSS Sprite</h1>
+
+<div id="nw">
+ <img src="nw.gif" width="290" height="200" alt="Northwest USA" />
+
+ <a id="olympia"   class="bang-bg" href="olympia.html"   title="Olympia"  >
+    <span class="screenreader-only">Olympia</span></a>
+
+ <a id="salem" class="flag-bg" href="salem.html" title="Salem" >
+    <span class="screenreader-only">Salem</span></a>
+
+ <a id="boise"  class="star-bg" href="boise.html"  title="Boise"  >
+    <span class="screenreader-only">Boise</span></a>
+</div>
+
+
+<!-- The following code is not shown in the book, but is put here 
+     to show the entire sprite composite background image. -->
+<img  id="sprite" src="bt.gif" alt="Sprite Images" />
+<span id="sprite-h">0 -16 -32 -48 -64 -80 -96 -112 </span>
+<span id="sprite-v">&nbsp;&nbsp;0<br />-16<br />-32<br />-48<br />-64<br />-80<br />-96<br />-112
+                       <br />-128<br />-144<br />-160<br />-176<br />-192
+                       <br />-208<br />-224<br />-240</span>
+
+ </body>
+</html>

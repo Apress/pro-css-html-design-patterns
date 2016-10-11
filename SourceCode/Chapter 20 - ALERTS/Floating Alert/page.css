@@ -1,0 +1,14 @@
+*.alert              { float:right; width:350px; margin-left:20px;
+                       border-top:1px solid black; border-bottom:1px solid black; }
+
+*.alert h3           { float:left;  width:50px; margin:10px 0; 
+                       font-size:1.3em; text-transform:uppercase; }
+
+*.alert p            { float:right; width:250px; margin:10px 0; }
+
+*.alert.note         { color:blue; 
+                       border-top:2px groove blue; border-bottom:2px ridge blue;}
+
+*.alert *.decoration { border-left:15px solid gold; margin-right:-11px; 
+                       font-size:0.7em; vertical-align:2px; }
+                       

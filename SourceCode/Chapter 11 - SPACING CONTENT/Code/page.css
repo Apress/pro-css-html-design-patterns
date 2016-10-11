@@ -1,0 +1,4 @@
+*.blocked     { display:block;         }
+*.preserved   { white-space:pre;       }
+*.nowrap      { white-space:nowrap;    }
+

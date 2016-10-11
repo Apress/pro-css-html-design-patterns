@@ -1,0 +1,7 @@
+/* IE6 does not position absolute elements correctly when the 
+   closest positioned ancestor is set to text-align:center; or text-align:right;
+   Thus, the closest positioned ancestor must be set to text-align:left. */
+   
+*.container { text-align:left;   }
+*.default   { text-align:center; }
+*.box       { text-align:center; }

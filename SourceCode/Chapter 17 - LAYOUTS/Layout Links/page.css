@@ -1,0 +1,37 @@
+/* Non-essential Styles */
+h2    { margin:0; font-size:1.1em; text-align:left; }
+h3    { margin:0; font-size:1em; }
+p     { margin:0; }
+
+#header, #body, #footer  
+         { margin:0; padding:5px; background-color:gold;
+           border-left:1px solid gray; border-right:2px solid black; 
+           border-top:1px solid gray; border-bottom:2px solid black; }
+
+*.float-divider { clear:both; display:block; 
+                  height:1px; font-size:1px; line-height:1px; }
+
+*.skiplink, *.breadcrumbs { font-size:0.8em; }
+*.sequential  { padding-left:320px; }
+
+#preheader   { margin-bottom:3px;  }
+#header      {  }
+#postheader  { margin-bottom:15px; }
+#main        {  }
+#footer      { margin-top:10px;    }
+
+#footer ul    { margin:0; padding:0 20px; }
+#footer li    { margin:0; padding:0 20px; list-style:none; font-size:0.7em; 
+                float:left; width:26%; white-space:nowrap; text-align:center; }
+
+
+/* Essential Styles */
+
+a:link,  a:visited, a:active { text-decoration:none; color:maroon; }  
+a:hover       { color:black; text-decoration:underline; }
+
+*.morelink    { font-size:0.8em; font-weight:bold;   text-align:right; }
+*.toplink     { font-size:0.7em; font-weight:normal; vertical-align:top; }
+*.outlink     { padding-right:15px; font-style:italic;
+                background: url("external.gif") no-repeat top right; }
+

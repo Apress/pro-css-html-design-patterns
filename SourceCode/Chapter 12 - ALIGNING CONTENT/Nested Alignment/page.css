@@ -1,0 +1,15 @@
+*.main    { background-color:gold; }
+*.ruler   { background-image:url("ruler.gif"); background-repeat:repeat-y; }
+
+*.ac1     { font-size:60px; border:1px solid black; }
+*.ac2     { font-size:30px; border:1px solid black; font-weight:bold; }
+*.ac3     { font-size:12px; font-weight:bold; }
+
+*.raise35px   { vertical-align:35px;        }
+*.lower20px   { vertical-align:-20px;       }
+*.text-top    { vertical-align:text-top;    }
+*.middle      { vertical-align:middle;      }
+*.baseline    { vertical-align:baseline;    }
+*.text-bottom { vertical-align:text-bottom; }
+
+

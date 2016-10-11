@@ -1,0 +1,12 @@
+/* Non-essential Styles */ 
+table   { border-collapse:collapse; border:1px solid black; }
+td, th  { width:75px; text-align:center; padding:2px; border:1px solid black; }
+
+
+/* Essential Styles */
+
+#ts td       { background:white; }                  /* Background of all cells    */
+#t1 *.odd td { background:palegreen; }              /* Alternating Row Background */
+#t1 td.c3    { background:darkgreen; color:white; } /* Column Background          */
+
+

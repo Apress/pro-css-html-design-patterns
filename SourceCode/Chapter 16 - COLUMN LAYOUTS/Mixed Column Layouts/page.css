@@ -1,0 +1,15 @@
+/* Non-essential Styles */
+table  { background:gold url("ruler.gif") repeat-x; }
+td     { border:2px solid black; padding-top:20px; padding-left:3px;  vertical-align:bottom; }
+
+table  { border-collapse:collapse;  margin-top:10px; }
+td     { overflow:hidden;                            }
+
+/* Essential Styles */
+
+*.fixed-layout  { table-layout:fixed; }    *.auto-layout { table-layout:auto;  }  
+*.shrinkwrapped { width:auto;         }    *.stretched   { width:100%;         }
+*.flex          { width:auto;         }
+*.sized1        { width:500px;        }    *.sized2      { width:200px;        }
+*.p1            { width:10%;          }    *.p2          { width:20%;          }
+*.p3            { width:40%;          }    *.p4          { width:80%;          }

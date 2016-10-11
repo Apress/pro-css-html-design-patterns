@@ -1,0 +1,13 @@
+p { margin-top:20px; letter-spacing:0.5px; line-height:1.9em; }  
+
+*.highlight { color:white; background-color:black;
+              padding-left:0.25em; padding-right:0.25em; 
+              padding-top:0.05em;  padding-bottom:0.13em; 
+              background-image:none; }
+     
+*.black-on-gold          { color:black;     background-color:gold;      }
+*.white-on-firebrick     { color:white;     background-color:firebrick; }
+*.cyan-on-royalblue      { color:lightcyan; background-color:royalblue; }
+*.palegreen-on-darkgreen { color:palegreen; background-color:darkgreen; }
+*.textured               { color:black;     background-color:white; 
+                           background-image:url("paper.jpg"); }

@@ -1,0 +1,37 @@
+h2  { margin:0; font-size:1.1em; font-style:italic; background-color:white; width:68px; }
+
+#before    { position:absolute; width:auto; margin:0 auto; top:50px; left:20px; }
+*.parent   { position:absolute; height:450px; width:700px; 
+             margin-top:5px; background-color:white; 
+             border:2px solid black; repeat-y; }
+
+*.box     { border:1px solid black; background-color:gold; } 
+*.spacer  { height:15px; border:none!important; background:none!important; font-size:1px; line-height:1px; }
+*.sized   { width:100px; height:35px; position:absolute; }
+
+
+*.static-inline-shrinkwrapped    { width:auto;  }
+
+*.replaced-inline-shrinkwrapped  { width:auto;  }
+*.replaced-inline-sized          { width:35px;  }
+*.replaced-inline-stretched      { width:100%; height:100%; }
+
+*.static-block-sized             { width:300px; }
+*.static-block-stretched         { width:auto;  }
+
+*.table-shrinkwrapped            { width:auto;  }
+*.table-sized                    { width:300px; }
+*.table-stretched                { width:100%;  }
+
+*.float-shrinkwrapped            { width:auto;  float:left;               }
+*.float-sized                    { width:300px; float:left;   clear:both; }
+*.float-stretched                { width:100%;  float:left;   clear:both; }
+
+*.absolute-shrinkwrapped   { width:auto;  left:0; right:auto; position:absolute; 
+                                                              top:370px; }
+
+*.absolute-sized           { width:300px; left:0; right:auto; position:absolute; 
+                                                              top:394px; }
+
+*.absolute-stretched       { width:auto;  left:0; right:0;    position:absolute; 
+                                                              top:418px; }

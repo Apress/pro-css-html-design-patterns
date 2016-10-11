@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" > 
+ <head><title>Hidden and Removed Cells</title>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" href="site.css"   media="all"    type="text/css" />
+  <link rel="stylesheet" href="page.css"   media="all"    type="text/css" />
+  <link rel="stylesheet" href="print.css"  media="print"  type="text/css" />
+  <!--[if lte IE 6]>
+  <link rel="stylesheet" href="ie6.css"    media="all"    type="text/css" />
+  <![endif]-->
+ </head>
+ 
+ <body>
+ 
+<h1>Hidden and Removed Cells</h1>
+
+<h3>Cell 1 is hidden and Cell 3 is removed. <br /> This moves cell 4 
+    into cell 3's place and creates a missing cell at the end.</h3>
+
+<br /><div>Collapsed Borders</div>
+<table class="collapsed" cellspacing="0" >
+ <tr><td          >1</td><td>2</td><td          >3</td><td>4</td></tr>
+ <tr><td class="h">1</td><td>2</td><td class="x">3</td><td>4</td></tr></table>
+
+<br /><div>Separated Borders</div>
+<table class="separated" cellspacing="5" >
+ <tr><td          >1</td><td>2</td><td          >3</td><td>4</td></tr>
+ <tr><td class="h">1</td><td>2</td><td class="x">3</td><td>4</td></tr></table>
+
+<!-- Hidden and Removed Columns -->
+<br />
+<br /><h2>Removed column in table with collapsed borders</h2>
+<table class="collapsed" cellspacing="0" >
+ <tr><td>1</td><td>2</td><td class="x">3</td><td>4</td></tr>
+ <tr><td>1</td><td>2</td><td class="x">3</td><td>4</td></tr></table>
+
+<br /><h2>Hidden column in table with separated borders</h2>
+<table class="separated" cellspacing="5" >
+ <tr><td>1</td><td>2</td><td class="h">3</td><td>4</td></tr>
+ <tr><td>1</td><td>2</td><td class="h">3</td><td>4</td></tr></table>
+
+<br /><h2>Removed column in table with collapsed borders<br />
+          Removed using &lt;col&gt; — only works in IE.</h2>
+<table class="collapsed" cellspacing="0" >
+ <colgroup> <col />    <col />    <col class="x" /> <col /></colgroup>
+ <tr>       <td>1</td> <td>2</td> <td>3</td>        <td>4</td> </tr>
+ <tr>       <td>1</td> <td>2</td> <td>3</td>        <td>4</td> </tr></table>
+
+<br /><h2>Hidden column in table with separated borders<br />
+          Removed using &lt;col&gt; — only works in IE.</h2>
+<table class="separated" cellspacing="5" >
+ <colgroup> <col />    <col />    <col class="h" /> <col /></colgroup>
+ <tr>       <td>1</td> <td>2</td> <td>3</td>        <td>4</td> </tr>
+ <tr>       <td>1</td> <td>2</td> <td>3</td>        <td>4</td> </tr></table>
+
+<!-- Hidden and Removed Rows -->
+<br />
+<br /><h2>Hidden row in table with collapsed borders</h2>
+<table class="collapsed" cellspacing="0" >
+ <tr          ><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+ <tr class="h"><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+ <tr          ><td>1</td><td>2</td><td>3</td><td>4</td></tr></table> 
+
+<br /><h2>Hidden row in table with separated borders</h2>
+<table class="separated" cellspacing="5" >
+ <tr          ><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+ <tr class="h"><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+ <tr          ><td>1</td><td>2</td><td>3</td><td>4</td></tr></table> 
+  
+<br /><h2>Removed row in table with collapsed borders</h2>
+<table class="collapsed" cellspacing="0" >
+ <tr          ><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+ <tr class="x"><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+ <tr          ><td>1</td><td>2</td><td>3</td><td>4</td></tr></table> 
+
+<br /><h2>Removed row in table with separated borders</h2>
+<table class="separated" cellspacing="5" >
+ <tr          ><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+ <tr class="x"><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+ <tr          ><td>1</td><td>2</td><td>3</td><td>4</td></tr></table> 
+
+<!-- Hidden and Removed Row Groups -->
+<br />
+<br /><h2>Hidden row group in table with collapsed borders</h2>
+<table class="collapsed" cellspacing="0" >
+ <thead class="h">
+  <tr><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+  <tr><td>1</td><td>2</td><td>3</td><td>4</td></tr></thead>
+ <tbody>
+  <tr><td>1</td><td>2</td><td>3</td><td>4</td></tr></tbody></table> 
+
+<br /><h2>Hidden row group in table with separated borders</h2>
+<table class="separated" cellspacing="5" >
+ <thead class="h">
+  <tr><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+  <tr><td>1</td><td>2</td><td>3</td><td>4</td></tr></thead>
+ <tbody>
+  <tr><td>1</td><td>2</td><td>3</td><td>4</td></tr></tbody></table> 
+  
+<br /><h2>Removed row group in table with collapsed borders</h2>
+<table class="collapsed" cellspacing="0" >
+ <thead class="x">
+  <tr><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+  <tr><td>1</td><td>2</td><td>3</td><td>4</td></tr></thead>
+ <tbody>
+  <tr><td>1</td><td>2</td><td>3</td><td>4</td></tr></tbody></table> 
+
+<br /><h2>Removed row group in table with separated borders</h2>
+<table class="separated" cellspacing="5" >
+ <thead class="x">
+  <tr><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+  <tr><td>1</td><td>2</td><td>3</td><td>4</td></tr></thead>
+ <tbody>
+  <tr><td>1</td><td>2</td><td>3</td><td>4</td></tr></tbody></table> 
+
+
+<!-- Hidden and Removed Tables -->
+<br />
+<br /><h4>Hidden table with collapsed borders </h4>
+<table class="collapsed hidden" cellspacing="0" >
+ <tr><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+ <tr><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+ <tr><td>1</td><td>2</td><td>3</td><td>4</td></tr></table> 
+
+<h4>Hidden table with separated borders </h4>
+<table class="separated hidden" cellspacing="5" >
+ <tr><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+ <tr><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+ <tr><td>1</td><td>2</td><td>3</td><td>4</td></tr></table> 
+
+<h4>Removed table with collapsed borders</h4>
+<table class="collapsed x" cellspacing="0" >
+ <tr><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+ <tr><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+ <tr><td>1</td><td>2</td><td>3</td><td>4</td></tr></table> 
+
+<h4>Removed table with separated borders</h4>
+<table class="separated x" cellspacing="5" >
+ <tr><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+ <tr><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+ <tr><td>1</td><td>2</td><td>3</td><td>4</td></tr></table> 
+
+<h2>End of Example</h2>
+
+
+</body>
+</html>

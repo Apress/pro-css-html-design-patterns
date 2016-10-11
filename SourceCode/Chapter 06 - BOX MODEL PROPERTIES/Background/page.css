@@ -1,0 +1,15 @@
+p    { margin-left:240px;  margin-top:0px;    margin-bottom:10px; }
+span { margin-left:-230px; margin-right:30px; padding-left:195px; font-size:19px;
+       background-position:left bottom; background-repeat:no-repeat;
+       background-color:black; background-image:url("star.gif"); }
+
+*.no-bg       { background-image:none;  background-color:transparent; }
+*.bg-color    { background-image:none;  background-color:black;       }
+*.bg-image    { background-repeat:no-repeat;       }
+*.bg-repeat   { background-repeat:repeat;          }
+*.bg-rx       { background-repeat:repeat-x;        }
+*.bg-pos-lt   { background-position:center bottom; }
+*.bg-pos-rb   { background-position:right  bottom; }
+*.bg-ry       { background-repeat:repeat-y; background-position:center top; 
+                padding-left:22px; float:right; height:263px; margin:0px; 
+                position:relative; top:-170px; }

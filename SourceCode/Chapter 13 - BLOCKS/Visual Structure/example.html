@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" > 
+ <head><title>Visual Structure (Same Example as Structural Meaning)</title>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" href="site.css"   media="all"   type="text/css" />
+  <link rel="stylesheet" href="page.css"   media="all"   type="text/css" />
+  <link rel="stylesheet" href="print.css"  media="print"  type="text/css" />
+  <!--[if lte IE 6]>
+  <link rel="stylesheet" href="ie6.css"    media="all"   type="text/css" />
+  <![endif]-->
+ </head>
+ 
+ <body>
+  <h1>Visual Structure <br />(Same Example as Structural Meaning)</h1>
+ 
+  <p>Everything in a document is related. The block structure identifies the 
+  order and intensity of the relationships. The more elements you wrap around 
+  content, the more tightly connected it becomes to ancestors and siblings.</p> 
+ 
+  <div>
+   <h2>This heading identifies the topic of its division</h2> 
+   <p>This paragraph introduces the topic of the heading.</p> 
+   <p>This paragraph continues the topic of the heading.</p></div>
+ 
+  <ul>
+   <li>This is an unordered list.</li>
+   <li>List items are more closely related than items in divisions.</li>
+   <li>There is no significance to the sequence of unordered list items.</li></ul> 
+ 
+  <div>
+   <h2>Tables have the most closely related content</h2>
+   <table><tr><th>Element</th> <th>Intensity</th> <th>Ordered</th></tr>
+          <tr><td>div    </td> <td>weak     </td> <td>Yes</td></tr>  
+          <tr><td>ul     </td> <td>medium   </td> <td>No </td></tr>  
+          <tr><td>table  </td> <td>strong   </td> <td>Yes</td></tr></table></div>
+ </body>
+</html>

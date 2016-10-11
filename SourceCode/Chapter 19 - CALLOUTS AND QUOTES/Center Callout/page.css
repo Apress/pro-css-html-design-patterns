@@ -1,0 +1,7 @@
+*.callout { display:block; width:300px; margin:20px auto; padding:6px; 
+            position:relative; left:0%; 
+            font-size:22px; line-height:normal; font-weight:bold;  
+            text-align:center; color:black; background-color:gold; 
+            border-left:1px solid black; border-right:1px solid black; 
+            border-top:6px solid black; border-bottom:6px solid black; }
+

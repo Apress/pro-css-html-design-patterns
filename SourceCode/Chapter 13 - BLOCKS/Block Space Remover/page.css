@@ -1,0 +1,8 @@
+*.section  { border:2px solid black; margin-bottom:32px; }
+
+p  { margin-top:32px; margin-bottom:32px; padding:5px; background-color:gold; 
+   border-left:1px solid gray; border-right:2px solid black; 
+   border-top:1px solid gray; border-bottom:2px solid black;}
+
+*.space-remover-large   { margin-top:-32px; }
+

@@ -1,0 +1,7 @@
+/* Non-essential styles */ 
+h2  { font-size:1.1em; margin:0; }
+
+img { margin-top:10px; display:block; border:none; }
+a   { text-decoration:none; color:black; }
+
+/* Essential styles */ 

@@ -1,0 +1,6 @@
+div  { border:1px solid black; }
+
+*.baseline  { vertical-align:baseline; }
+*.raised    { vertical-align:1em;      }
+*.lowered   { vertical-align:-1em;     }
+

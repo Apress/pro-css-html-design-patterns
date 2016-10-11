@@ -1,0 +1,12 @@
+
+*.bg { background:url("bg.gif") bottom left repeat-x white; margin-top:20px; }
+
+*.tl { background:url("rc.gif") top left     no-repeat;  }
+*.br { background:url("rc.gif") bottom right no-repeat;  }
+*.tr { background:url("rc.gif") top right    no-repeat;  }
+*.bl { background:url("rc.gif") bottom left  no-repeat;  }
+
+*.trc { background:url("rc-trc.gif") top right   no-repeat; }
+*.blc { background:url("rc-blc.gif") bottom left no-repeat; }
+
+*.pad { padding:10px; }

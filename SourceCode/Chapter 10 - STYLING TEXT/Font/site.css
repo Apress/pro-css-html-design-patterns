@@ -1,0 +1,6 @@
+body { margin:0px; padding:20px; padding-top:0px; width:702px;
+       font-family:verdana,arial,sans-serif;  }
+h1   { margin:10px 0; font-size:30px;  }
+p    { clear:left; margin:0; }  
+code { float:left; width:190px; height:26px; }
+span { float:left; width:120px; height:26px; }

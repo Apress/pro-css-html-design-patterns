@@ -1,0 +1,15 @@
+sub   { vertical-align:-0.3em; font-size:0.75em; }
+
+*.ac1     {font-size:4em; font-family:"Times New Roman" serif; white-space:nowrap; }
+*.ac1-func{vertical-align:0.6em; font-size:0.3em; font-style:italic; }
+*.ac1-sum {vertical-align:0.2em; font-size:0.6em; position:relative; left:-0.1em;}
+*.ac1-max {vertical-align:3em;   font-size:0.2em; position:relative; left:-6em;  }
+*.ac1-min {vertical-align:-1em;  font-size:0.2em; position:relative; left:-3.3em;}
+*.ac1-formula { vertical-align:0.6em; font-size:0.3em; font-style:italic; 
+                position:relative; left:-4em; letter-spacing:0.1em; }
+
+*.ac2     {vertical-align:0.4em; font-size:1.5em; position:relative; left:-0.3em;}
+*.ac2-num {vertical-align:0.7em;  font-size:0.4em; border-bottom:1px solid black;}
+*.ac2-dnm {vertical-align:-0.4em; font-size:0.4em; position:relative; left:-1.4em;}
+*.ac2-close { position:relative; left:-0.65em; }
+*.small{font-size:12px;} *.medium{font-size:18px;} *.large{font-size:32px;}  

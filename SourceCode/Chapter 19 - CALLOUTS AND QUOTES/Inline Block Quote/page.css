@@ -1,0 +1,11 @@
+*.blockquote      { display:block; width:500px; margin:10px auto; 
+                    position:relative; left:0%; text-align:justify;
+                    line-height:1.3em; color:black; 
+                    padding-top:40px; padding-left:40px;
+                    background:url("dq1.jpg") no-repeat top left white; }
+
+*.blockquote span { display:block; 
+                    padding-bottom:20px; padding-right:40px;
+                    background:url("dq2.jpg") no-repeat bottom right; }
+
+*.blockquote cite { display:block; text-align:right; font-size:0.9em; }

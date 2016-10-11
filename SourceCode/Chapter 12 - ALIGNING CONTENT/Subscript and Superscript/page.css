@@ -1,0 +1,4 @@
+sub { vertical-align:-0.5em; font-size:0.75em; }
+sup { vertical-align:0.5em;  font-size:0.75em; }
+
+*.large { font-size:32px; }  

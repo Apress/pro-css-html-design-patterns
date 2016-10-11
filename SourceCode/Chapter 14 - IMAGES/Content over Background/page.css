@@ -1,0 +1,9 @@
+
+#crater-lake { position:relative; padding:0; width:700px; height:500px; 
+               background:black url("crater-lake.jpg") no-repeat center center; }
+
+#crater-lake *.caption  { position:absolute; margin:15px; left:0; top:0;  
+                          font-size:1.05em; color:white; }
+
+#crater-date            { position:absolute; left:0; bottom:10px; width:700px; 
+                          text-align:center; color:white; font-size:0.8em; }

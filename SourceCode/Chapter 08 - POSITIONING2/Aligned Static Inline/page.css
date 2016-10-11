@@ -1,0 +1,13 @@
+div { margin:10px; padding:0 20px; border:2px solid black; }
+p   { padding:5px; background-color:gold; 
+      border-left:1px solid gray; border-right:2px solid black; 
+      border-top:1px solid gray; border-bottom:2px solid black; }
+
+*.baseline { vertical-align:baseline; }
+*.raised   { vertical-align:10px;  }    
+*.lowered  { vertical-align:-10px; }
+
+#l { position:static; text-align:left; }
+#c { position:static; text-align:center; line-height:48px;}
+#r { position:static; text-align:right; }
+#j { position:static; text-align:justify; }

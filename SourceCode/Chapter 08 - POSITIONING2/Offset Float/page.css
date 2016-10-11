@@ -1,0 +1,13 @@
+div { position:relative; height:150px; margin:10px; border:2px solid black; }
+p   { margin:0; padding:5px; background-color:gold; text-align:center; 
+      border-left:1px solid gray; border-right:2px solid black; 
+      border-top:1px solid gray; border-bottom:2px solid black; }
+*.sized   { width:70px; height:60px; margin:10px; }
+*.widened { width:175px; }
+*.shrunk  { margin:3px; padding:1px; background-color:white; }
+
+*.right-extended { margin-right:120px; }  *.right-retracted { margin-right:-55px; }
+*.left-retracted { margin-left:-185px; }  *.top-extended    { margin-top:20px;    }
+
+*.float-left  { float:left;  }            *.float-right { float:right; }
+*.clear-left  { clear:left;  }            *.clear-right { clear:right; }

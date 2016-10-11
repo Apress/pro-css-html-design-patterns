@@ -1,0 +1,16 @@
+div     { position:relative; margin:10px; padding:20px; border:2px solid black; }
+p,span  { margin:0; padding:5px; background-color:gold; text-align:center; 
+          border-left:1px solid gray; border-right:2px solid black; 
+          border-top:1px solid gray; border-bottom:2px solid black; }
+span    { background-color:white; line-height:35px; }
+
+*.float    { float:left; width:90px; height:40px; }
+*.sized    { width:90px; height:40px; margin-left:auto; margin-right:0; }
+*.indented { margin-left:60px; margin-right:60px; }
+
+*.relative { position:relative;     }
+*.offset1  { left:0px;   top:-12px; }
+*.offset2  { left:-50px; top:10px;  }
+*.offset3  { left:50px;  top:10px;  }
+*.offset4  { left:0px;   top:-32px; }
+

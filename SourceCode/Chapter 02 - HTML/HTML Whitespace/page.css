@@ -1,0 +1,5 @@
+em        { padding-left:50px; }
+p         { font-family:monospace; font-size:18px; }
+
+*.border  { font-weight:bold; 
+            border-left:2px solid black; border-right:2px solid black; }

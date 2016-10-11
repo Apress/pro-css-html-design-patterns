@@ -1,0 +1,13 @@
+div { position:relative; height:135px; margin:10px; padding-top:0; 
+      border:2px solid black; }
+p   { padding:5px; background-color:gold; text-align:center;
+      border-left:1px solid gray; border-right:2px solid black; 
+      border-top:1px solid gray; border-bottom:2px solid black; }
+
+#cm { position:absolute; }
+
+*.hc { width:200px;  left:0;  margin-left:auto;  right:0;   margin-right:auto;  }
+
+*.vc { height:40px;  top:0;   margin-top:auto;   bottom:0;  margin-bottom:auto; }
+      
+      

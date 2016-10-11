@@ -1,0 +1,63 @@
+COMMON SECTION NAMES 
+
+abbreviation        dedication          job                 rebate              
+abbreviations       dedications         jobs                rebates             
+about               demo                                    registry            
+abstract            demos               link                registries           
+abstracts           disclaimer          links               resource             
+abuse               disclaimers         listing             resources            
+abuses              donations           listings            result               
+account             downloads           locator             results              
+accounts                                login               retraction           
+acknowledgment      editor                                  retractions          
+acknowledgments     editors             main                return               
+ad                  endnote             main-content        returns              
+ads                 endnotes            management          review               
+advertise           epigraph            map                 reviewer             
+advertiser          epigraphs           message             reviewers            
+advertisers         errata              messages            reviews              
+advertising         event                                   rss                  
+affiliate           events              news                rss-feed             
+affiliates          example             newsfeed            rss-feeds            
+alert               examples            newsfeeds                                
+alerts              exercise            newsletter          search               
+appendix            exercises           newsletters         security             
+archive                                 note                service              
+archives            faq                 notes               services             
+article             faqs                                    shopping             
+articles            feature             offer               solution             
+author              features            offers              solutions            
+authors             feedback            order               statistic            
+awards              figure              orders              statistics           
+                    figures                                 subscription         
+bibliography        footnote            podcast             subscriptions        
+blog                footnotes           podcasts            suggestion           
+blogs               form                policy              suggestions          
+                    forms               policies            summary              
+callout             forum               praise              support              
+callouts            forums              preface                                  
+cart                forward             preference          table                
+caution                                 preferences         tables               
+cautions            giftcard            press               tag                  
+checkout            giftcards           price               tags                 
+comment             glossary            prices              term                 
+comments            glossaries          pricing             terms                
+community           guarantee           privacy             tip                  
+communities         guarantees          product             tips                 
+comparison          guide               products            titlepage            
+comparisons         guides              promotion           toc                  
+contact                                 promotions          top-ten              
+contacts            headline            public-relations    training             
+content             headlines           publication         tutorial             
+contents            help                publications        tutorials            
+contributor         helps               publisher                                
+contributors        home                publishers          video                
+convention          how-to                                  videos               
+conventions                             question                                 
+copyright           illustration        questions           warning              
+correction          illustrations       quote               warnings             
+corrections         index               quotes              warranty             
+                    introduction                            warranties           
+                    investor                                welcome              
+                    investors                               wishlist             
+                                                            wishlists            
